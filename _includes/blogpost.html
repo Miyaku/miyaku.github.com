@@ -1,0 +1,10 @@
+<h2 class="floatLeft">My post</h2> <a href="{{ "/feed.xml" | prepend: site.baseurl }}" title="Subscribe via RSS" class="fa fa-rss floatRight" style="color:#ccc"> </a>
+<br /><br />
+<ol class="post-list floatLeft">
+{% for post in site.posts %}
+<li>
+<i class="fa fa-code" aria-hidden="true"></i> <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+</li>
+{% endfor %}
+</ol>
+<br />
