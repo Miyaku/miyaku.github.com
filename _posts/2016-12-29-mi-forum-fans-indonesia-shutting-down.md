@@ -7,6 +7,7 @@ comments: true
 author: "inisial M"
 categories: mifans
 ---
+<meta http-equiv="refresh" content="0;url=http://mifans.web.id">
 <img src="/assets/images/post/IMG_20161229_134843.png"><br />
 Hai kak,
 
