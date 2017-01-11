@@ -1,11 +1,11 @@
 if (document.getElementById&&!document.layers){
 
 // *** Clock colours
-dCol='#cc0033';   //date colour.
+dCol='#ff4040';   //date colour.
 fCol='#ffffff';   //face colour.
 sCol='#666666';   //seconds colour.
-mCol='#cc0033';   //minutes colour.
-hCol='#cc0033';   //hours colour.
+mCol='#fd6440';   //minutes colour.
+hCol='#fd6440';   //hours colour.
 // *** Controls
 del=0.6;  //Follow mouse speed.
 ref=40;   //Run speed (timeout).
