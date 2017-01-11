@@ -64,23 +64,23 @@ zx[i]=0;
 algn=new Array();
 for (i=0; i < D.length; i++){
 algn[i]=(parseInt(D[i]) || D[i]==0)?10:9;
-document.write('<div id="_date'+i+'" class="css2" style="font-size:'+algn[i]+'px;color:'+dCol+'">'+D[i]+'<\/div>');
+document.write('<div id="_date'+i+'" class="miyaku" style="font-size:'+algn[i]+'px;color:'+dCol+'">'+D[i]+'<\/div>');
 tmpd[i]=document.getElementById("_date"+i).style;
 }
 for (i=0; i < F; i++){
-document.write('<div id="_face'+i+'" class="css2" style="color:'+fCol+'">'+N[i]+'<\/div>');
+document.write('<div id="_face'+i+'" class="miyaku" style="color:'+fCol+'">'+N[i]+'<\/div>');
 tmpf[i]=document.getElementById("_face"+i).style; 
 }
 for (i=0; i < H.length; i++){
-document.write('<div id="_hours'+i+'" class="css1" style="color:'+hCol+'">'+H[i]+'<\/div>');
+document.write('<div id="_hours'+i+'" class="inisialm" style="color:'+hCol+'">'+H[i]+'<\/div>');
 tmph[i]=document.getElementById("_hours"+i).style;
 }
 for (i=0; i < M.length; i++){
-document.write('<div id="_minutes'+i+'" class="css1" style="color:'+mCol+'">'+M[i]+'<\/div>');
+document.write('<div id="_minutes'+i+'" class="inisialm" style="color:'+mCol+'">'+M[i]+'<\/div>');
 tmpm[i]=document.getElementById("_minutes"+i).style; 
 }
 for (i=0; i < S.length; i++){
-document.write('<div id="_seconds'+i+'" class="css1" style="color:'+sCol+'">'+S[i]+'<\/div>');
+document.write('<div id="_seconds'+i+'" class="inisialm" style="color:'+sCol+'">'+S[i]+'<\/div>');
 tmps[i]=document.getElementById("_seconds"+i).style;         
 }
 
