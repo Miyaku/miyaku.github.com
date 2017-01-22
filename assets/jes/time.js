@@ -14,4 +14,5 @@
         }, 500);
     }
     startTime();
+    document.write(h + ":" + m + ":" + s);
 })();
