@@ -28,7 +28,8 @@ Ram : Meja Kerja
 CPU : Pegawai
 Isi RAM : Barang-barang / Peralatan
 
-Contoh:<pre>
+Contoh:
+<pre>
 Seorang pegawai (CPU), dia kerjanya mengatur, pendataan, stempel, dan tanda tangan, mana yang lebih baik??
 1. Meja kerja pegawai tsb diisi penuh oleh barang2 yang sering dia pakai, kaya pulpen, scanner, printer, stempel, agar dia semakin cepat mengerjakan kerjaannya, semakin besar meja (RAM), semakin baik kerjanya..
 atau
@@ -42,10 +43,11 @@ Android menganggap RAM itu resource yang harus digunakan, 100% klo emang bisa.
 <b>HUBUNGAN RAM BATTERAI</b>
 
 RAM usage tidak mempengaruhi batterai
+<pre>
 1. Mengisi RAM itu diatur oleh Memory Controller BUKAN CPU/APU.
 2. Apapun yang di store di memory, digunakan atau tidak, tidak mengaktifkan CPU/APU, tapi oleh memory controller chip.
 3. Semakin sedikit FREE RAM di android semakin cepat, karena semua resource yang ada sudah tersedia di RAM, jadi tinggal panggil address resource di ram, tidak perlu mencari lalu me-load frameworks/bitmap/vector/content
-
+</pre>
 <blockquote>The amount of data you hold in memory doesn't influence the battery life as the complete memory has to be refreshed all the time,
 whether you store something there or not (the memory controller doesn't know whether a part is "unused").</blockquote>
 
@@ -60,12 +62,12 @@ Sekretaris : Memory Controller
 <b>LMK</b>
 Android sendiri sudah memiliki LMK (Low Memory Killer) untuk mengatur kebutuhan memory. Di dalam LMK ini ada 6 pembagian untuk pengaturan task killer, yaitu:
 
-FOREGROUND_APP : Aplikasi yang ada aktif dilayar saat ini.
-VISIBLE_APP : Aplikasi yang hidup dan berjalan di background karena masih melakukan sesuatu.
-SECONDARY_SERVER : sebuah proses/service yang dibutuhkan aplikasi yang sedang berjalan.
-HIDDEN_APP
-CONTENT_PROVIDER
-EMPTY_APP
+FOREGROUND_APP : Aplikasi yang ada aktif dilayar saat ini.<br />
+VISIBLE_APP : Aplikasi yang hidup dan berjalan di background karena masih melakukan sesuatu.<br />
+SECONDARY_SERVER : sebuah proses/service yang dibutuhkan aplikasi yang sedang berjalan.<br />
+HIDDEN_APP<br />
+CONTENT_PROVIDER<br />
+EMPTY_APP<br />
 
 Walaupun sudah diatur oleh system, tapi kita bisa mengaturnya sendiri. Setiap Handset mempunyai setting LMK yang berbeda-beda.
 -----------------------------
