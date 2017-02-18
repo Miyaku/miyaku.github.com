@@ -11,9 +11,9 @@ categories: Android
 Perlu diingat, Android based on Linux, bukan windows, cara kerja, pengaturan, serta manajemennya juga berbeda karena berbeda sistem operasi sistem.
 
 Hal yang perlu diingat adalah
->_ Android/Linux itu semua tentang efisiensi.
->_ Android mengganggap RAM itu adalah Sumber daya (Resource) yang harus digunakan.
->_ Android memiliki AutoKiller Saat Low memory atau LMK.
+1) Android/Linux itu semua tentang efisiensi.
+2) Android mengganggap RAM itu adalah Sumber daya (Resource) yang harus digunakan.
+3) Android memiliki AutoKiller Saat Low memory atau LMK.
 
 Konsep pemakaian memori Linux adalah semua tentang efisiensi. RAM adalah sumber daya yang harus digunakan, 100% jika memungkinkan, sepanjang waktu (jika memungkinkan).
 
@@ -28,12 +28,12 @@ Ram : Meja Kerja
 CPU : Pegawai
 Isi RAM : Barang-barang / Peralatan
 
-Contoh:
+Contoh:<pre>
 Seorang pegawai (CPU), dia kerjanya mengatur, pendataan, stempel, dan tanda tangan, mana yang lebih baik??
 1. Meja kerja pegawai tsb diisi penuh oleh barang2 yang sering dia pakai, kaya pulpen, scanner, printer, stempel, agar dia semakin cepat mengerjakan kerjaannya, semakin besar meja (RAM), semakin baik kerjanya..
-<i>atau</i>
+atau
 2. Meja kerjanya kosong, dan dia harus ambil pulpen ke tempat pengadaan pulpen, mau scan harus ke scanner di ujung kantor, mau nge-print harus jalan dulu ke printer.
-
+</pre>
 No.1 adalah cara kerja Android/Linux
 
 Kembali lagi ke tulisan atas : Linux/Android itu semua tentang efisiensi.
@@ -71,7 +71,7 @@ Walaupun sudah diatur oleh system, tapi kita bisa mengaturnya sendiri. Setiap Ha
 -----------------------------
 
 Why Does Android Not Need Task Killers?
-
+<pre>
 1. Android secara otomatis membunuh tugas ketika lebih banyak memori yang dibutuhkan.
 2. Android secara otomatis membunuh tugas bila melakukan apa yang perlu dilakukan.
 3. Android secara otomatis membunuh tugas ketika Anda tidak kembali untuk itu dalam waktu yang lama.
@@ -79,7 +79,7 @@ Why Does Android Not Need Task Killers?
 5. Membunuh proses tertentu dapat memiliki efek samping yang tidak diinginkan. Tidak menerima pesan teks, alarm tidak akan mati, dan memaksa menutup hanya untuk beberapa nama.
 6. Kebanyakan Aplikasi akan keluar dengan sendirinya apabila user menekan tombol "back"
 7. Jika menekan Home, Android akhirnya akan membunuhnya setelah itu berada di latar belakang untuk sementara waktu.
-
+</pre>
 What Should We Do : Let Android handle tasks itself.
 
 <i>Source Google & Reader with me</i>
