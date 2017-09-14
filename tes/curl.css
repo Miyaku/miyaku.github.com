@@ -1536,28 +1536,28 @@ pre code {
   max-height: 340px;
   overflow-y: scroll;
 }
-.container {
+.kontainer {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  .container {
+  .kontainer {
     width: 750px;
   }
 }
 @media (min-width: 992px) {
-  .container {
+  .kontainer {
     width: 970px;
   }
 }
 @media (min-width: 1200px) {
-  .container {
+  .kontainer {
     width: 1170px;
   }
 }
-.container-fluid {
+.kontainer-fluid {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
@@ -4175,13 +4175,13 @@ a.badge:focus {
 .jumbotron > hr {
   border-top-color: #cccccc;
 }
-.container .jumbotron,
-.container-fluid .jumbotron {
+.kontainer .jumbotron,
+.kontainer-fluid .jumbotron {
   border-radius: 0;
   padding-left: 15px;
   padding-right: 15px;
 }
-.jumbotron .container {
+.jumbotron .kontainer {
   max-width: 100%;
 }
 @media screen and (min-width: 768px) {
@@ -4189,8 +4189,8 @@ a.badge:focus {
     padding-top: 48px;
     padding-bottom: 48px;
   }
-  .container .jumbotron,
-  .container-fluid .jumbotron {
+  .kontainer .jumbotron,
+  .kontainer-fluid .jumbotron {
     padding-left: 60px;
     padding-right: 60px;
   }
@@ -5660,10 +5660,10 @@ button.close {
 .clearfix:after,
 .dl-horizontal dd:before,
 .dl-horizontal dd:after,
-.container:before,
-.container:after,
-.container-fluid:before,
-.container-fluid:after,
+.kontainer:before,
+.kontainer:after,
+.kontainer-fluid:before,
+.kontainer-fluid:after,
 .row:before,
 .row:after,
 .form-horizontal .form-group:before,
@@ -5693,8 +5693,8 @@ button.close {
 }
 .clearfix:after,
 .dl-horizontal dd:after,
-.container:after,
-.container-fluid:after,
+.kontainer:after,
+.kontainer-fluid:after,
 .row:after,
 .form-horizontal .form-group:after,
 .btn-toolbar:after,
