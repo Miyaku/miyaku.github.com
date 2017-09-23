@@ -1,0 +1,781 @@
+<!-- Mulai M -->
+
+<!-- Weekly Released Note 7.9.14 &#124; 7.9.7 &#124; 7.6.8 -->
+<div class="alert alert-dismissable alert-info"><button type="button" class="close" data-dismiss="alert">x</button>
+<h5><b>Notifikasi</b> Tutorial Cara Backup & Install nya kakak bisa baca <a href="/?u=/miui-mod/">di sini</a>. Untuk tau codename devices kakak, kakak bisa cek <a href="https://mifans.web.id/p/3580?ref=SL">di sini</a>.</h5>
+</div>
+
+<div class="row">
+<div class="col-md-4">
+<h2>Center Clock</h2>
+<div class="panel-group" id="accordion">
+<div class="panel panel-default">
+  <div class="panel-heading">Penampakan</div>
+  <div class="panel-body">
+     <img src="https://explore.mifans.web.id/gambar/mmod_cclockt.png" clas="mayo"/>
+  </div>
+</div>
+
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title faa-parent animated-hover" data-toggle="collapse" data-target="#collapseActive1"><strong>MIUI 7.9.14 Beta</strong> <i class="fa fa-download pull-right faa-horizontal faa-tada"></i></h4>
+</div>
+<div id="collapseActive1" class="panel-collapse collapse">
+ <div class="panel-body">
+<form class="pull-center" name='mayomi1' action='' method='post'>
+<input type='hidden' name='submitted' value='1' />
+
+<select class="form-control" onchange="mayomi1.action = 'https://miui.mifans.web.id/mmod/cclock/globeROM_CenterClock_' + this.options[this.selectedIndex].value +'_7.9.14_enable.zip';">
+<option value='#' selected='selected'>Devices (Codename)</option>
+<option value='aries'>Mi2S (Aries)</option>
+<option value='cancro'>Mi3/4 (Cancro)</option>
+<option value='libra'>Mi4c (Libra)</option>
+<option value='aqua'>Mi4s (Aqua)</option>
+<option value='gemini'>Mi5/5Pro (Gemini)</option>
+<option value='song'>Mi5c (Meri/Song)</option>
+<option value='tiffany'>Mi5x (Tiffany)</option>
+<option value='capricorn'>Mi5s (Capricorn)</option>
+<option value='natrium'>Mi5s Plus (Natrium)</option>
+<option value='sagit'>Mi6 (Sagit)</option>
+<option value='hydrogen'>Mi Max (Hydrogen)</option>
+<option value='helium'>Mi Max Pro (Helium)</option>
+<option value='ocygen'>Mi Max 2 (Oxygen)</option>
+<option value='lithium'>Mi Mix (Lithium)</option>
+<option value='virgo'>Mi Note (Virgo)</option>
+<option value='leo'>Mi Note Pro (Leo)</option>
+<option value='scorpio'>Mi Note 2 (Scorpio)</option>
+<option value='omega'>Redmi Pro (Omega)</option>
+<option value='ido'>Redmi 3 (Ido)</option>
+<option value='land'>Redmi 3X/S (Land)</option>
+<option value='prada'>Redmi 4 (Prada)</option>
+<option value='markw'>Redmi 4Pro (Markw)</option>
+<option value='rolex'>Redmi 4A (Rolex)</option>
+<option value='santoni'>Redmi 4X (Santoni)</option>
+<option value='hermes'>Redmi Note 2 (Hermes)</option>
+<option value='hennessy'>Redmi Note 3 (Hennessy)</option>
+<option value='kenzo'>Redmi Note 3Pro (Kenzo)</option>
+<option value='kate'>Redmi Note 3SE (Kate)</option>
+<option value='nikel'>Redmi Note 4 (Nikel)</option>
+<option value='mido'>Redmi Note 4X (Mido)</option>
+<option value='ugg'>Redmi Note 5A (Ugg)</option>
+<option value='ugglite'>Redmi Note 5A Lite (Ugglite)</option>
+<option value='latte'>Mi Pad 2 (Latte)</option>
+<option value='cappu'>Mi Pad 3 (Cappu)</option>
+</select>
+</div>
+<input  type="submit" name="do" value="Unduh" class="btn btn-primary btn-block" /> 
+</div>
+</form>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title faa-parent animated-hover" data-toggle="collapse" data-target="#collapseActive2"><strong>MIUI 7.9.7 Beta</strong> <i class="fa fa-download pull-right faa-flash"></i></h4>
+</div>
+<div id="collapseActive2" class="panel-collapse collapse">
+<div class="panel-body">
+<form class="pull-center" name='mayomi2' action='' method='post'>
+<input type='hidden' name='submitted' value='1' />
+<select class="form-control" onchange="mayomi2.action = 'https://miui.mifans.web.id/mmod/cclock/globeROM_CenterClock_' + this.options[this.selectedIndex].value +'_7.9.7_enable.zip';">
+<option value='#' selected='selected'>Devices (Codename)</option>
+<option value='aries'>Mi2S (Aries)</option>
+<option value='cancro'>Mi3/4 (Cancro)</option>
+<option value='libra'>Mi4c (Libra)</option>
+<option value='aqua'>Mi4s (Aqua)</option>
+<option value='gemini'>Mi5/5Pro (Gemini)</option>
+<option value='song'>Mi5c (Meri/Song)</option>
+<option value='tiffany'>Mi5x (Tiffany)</option>
+<option value='capricorn'>Mi5s (Capricorn)</option>
+<option value='natrium'>Mi5s Plus (Natrium)</option>
+<option value='sagit'>Mi6 (Sagit)</option>
+<option value='hydrogen'>Mi Max (Hydrogen)</option>
+<option value='helium'>Mi Max Pro (Helium)</option>
+<option value='ocygen'>Mi Max 2 (Oxygen)</option>
+<option value='lithium'>Mi Mix (Lithium)</option>
+<option value='virgo'>Mi Note (Virgo)</option>
+<option value='leo'>Mi Note Pro (Leo)</option>
+<option value='scorpio'>Mi Note 2 (Scorpio)</option>
+<option value='omega'>Redmi Pro (Omega)</option>
+<option value='ido'>Redmi 3 (Ido)</option>
+<option value='land'>Redmi 3X/S (Land)</option>
+<option value='prada'>Redmi 4 (Prada)</option>
+<option value='markw'>Redmi 4Pro (Markw)</option>
+<option value='rolex'>Redmi 4A (Rolex)</option>
+<option value='santoni'>Redmi 4X (Santoni)</option>
+<option value='hermes'>Redmi Note 2 (Hermes)</option>
+<option value='hennessy'>Redmi Note 3 (Hennessy)</option>
+<option value='kenzo'>Redmi Note 3Pro (Kenzo)</option>
+<option value='kate'>Redmi Note 3SE (Kate)</option>
+<option value='nikel'>Redmi Note 4 (Nikel)</option>
+<option value='mido'>Redmi Note 4X (Mido)</option>
+<option value='ugg'>Redmi Note 5A (Ugg)</option>
+<option value='ugglite'>Redmi Note 5A Lite (Ugglite)</option>
+<option value='latte'>Mi Pad 2 (Latte)</option>
+<option value='cappu'>Mi Pad 3 (Cappu)</option>
+</select>
+</div>
+<input  type="submit" name="do" value="Unduh" class="btn btn-primary btn-block" /> 
+</div>
+</form>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title faa-parent animated-hover" data-toggle="collapse" data-target="#collapseActive3"><strong>MIUI 7.6.8 Beta </strong><i class="fa fa-download pull-right faa-float"></i></h4>
+</div>
+<div id="collapseActive3" class="panel-collapse collapse">
+<div class="panel-body">
+<form class="pull-center" name='mayomi3' action='' method='post'>
+<input type='hidden' name='submitted' value='1' />
+<select class="form-control" onchange="mayomi3.action = 'https://miui.mifans.web.id/mmod/cclock/globeROM_CenterClock_' + this.options[this.selectedIndex].value +'_7.6.8_enable.zip';">
+<option value='#' selected='selected'>Devices (Codename)</option>
+<option value='aries'>Mi2S (Aries)</option>
+<option value='cancro'>Mi3/4 (Cancro)</option>
+<option value='libra'>Mi4c (Libra)</option>
+<option value='aqua'>Mi4s (Aqua)</option>
+<option value='gemini'>Mi5/5Pro (Gemini)</option>
+<option value='song'>Mi5c (Meri/Song)</option>
+<option value='tiffany'>Mi5x (Tiffany)</option>
+<option value='capricorn'>Mi5s (Capricorn)</option>
+<option value='natrium'>Mi5s Plus (Natrium)</option>
+<option value='sagit'>Mi6 (Sagit)</option>
+<option value='hydrogen'>Mi Max (Hydrogen)</option>
+<option value='helium'>Mi Max Pro (Helium)</option>
+<option value='ocygen'>Mi Max 2 (Oxygen)</option>
+<option value='lithium'>Mi Mix (Lithium)</option>
+<option value='virgo'>Mi Note (Virgo)</option>
+<option value='leo'>Mi Note Pro (Leo)</option>
+<option value='scorpio'>Mi Note 2 (Scorpio)</option>
+<option value='omega'>Redmi Pro (Omega)</option>
+<option value='ido'>Redmi 3 (Ido)</option>
+<option value='land'>Redmi 3X/S (Land)</option>
+<option value='prada'>Redmi 4 (Prada)</option>
+<option value='markw'>Redmi 4Pro (Markw)</option>
+<option value='rolex'>Redmi 4A (Rolex)</option>
+<option value='santoni'>Redmi 4X (Santoni)</option>
+<option value='hermes'>Redmi Note 2 (Hermes)</option>
+<option value='hennessy'>Redmi Note 3 (Hennessy)</option>
+<option value='kenzo'>Redmi Note 3Pro (Kenzo)</option>
+<option value='kate'>Redmi Note 3SE (Kate)</option>
+<option value='nikel'>Redmi Note 4 (Nikel)</option>
+<option value='mido'>Redmi Note 4X (Mido)</option>
+<option value='ugg'>Redmi Note 5A (Ugg)</option>
+<option value='ugglite'>Redmi Note 5A Lite (Ugglite)</option>
+<option value='latte'>Mi Pad 2 (Latte)</option>
+<option value='cappu'>Mi Pad 3 (Cappu)</option>
+</select>
+</div>
+<input  type="submit" name="do" value="Unduh" class="btn btn-primary btn-block" /> 
+</div>
+</form>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h3 class="panel-title faa-parent animated-hover" data-toggle="collapse" data-target="#collapseActive4"><strong>Uninstaller</strong> <i class="fa fa-trash-o pull-right faa-horizontal"></i></h3>
+</div>
+<div id="collapseActive4" class="panel-collapse collapse">
+<div class="panel-body">
+Akan datang..</div>
+<a class="btn btn-warning btn-xs btn-block disabled">Selengkapnya <i class="fa fa-chevron-right faa-passing animated"></i></a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 panel-group">
+<h2>Beauty & Center Clock </h2>
+<div class="panel panel-default">
+  <div class="panel-heading">Penampakan</div>
+  <div class="panel-body">
+<img src="https://explore.mifans.web.id/gambar/mmod_beauty_cclock.png" class="mayo"/>
+  </div>
+</div>
+
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title faa-parent animated-hover" data-toggle="collapse" data-target="#collapseActive1a"><strong>MIUI 7.9.14 Beta</strong> <i class="fa fa-download pull-right faa-horizontal faa-tada"></i></h4>
+</div>
+<div id="collapseActive1a" class="panel-collapse collapse">
+ <div class="panel-body">
+<form class="pull-center" name='mayomip1' action='' method='post'>
+<input type='hidden' name='submitted' value='1' />
+<select class="form-control" onchange="mayomip1.action = 'https://miui.mifans.web.id/mmod/beauty/globeROM_BeautyMod_' + this.options[this.selectedIndex].value +'_7.9.14_cclock.zip';">
+<option value='#' selected='selected'>Devices (Codename)</option>
+<option value='aries'>Mi2S (Aries)</option>
+<option value='cancro'>Mi3/4 (Cancro)</option>
+<option value='libra'>Mi4c (Libra)</option>
+<option value='aqua'>Mi4s (Aqua)</option>
+<option value='gemini'>Mi5/5Pro (Gemini)</option>
+<option value='song'>Mi5c (Meri/Song)</option>
+<option value='tiffany'>Mi5x (Tiffany)</option>
+<option value='capricorn'>Mi5s (Capricorn)</option>
+<option value='natrium'>Mi5s Plus (Natrium)</option>
+<option value='sagit'>Mi6 (Sagit)</option>
+<option value='hydrogen'>Mi Max (Hydrogen)</option>
+<option value='helium'>Mi Max Pro (Helium)</option>
+<option value='ocygen'>Mi Max 2 (Oxygen)</option>
+<option value='lithium'>Mi Mix (Lithium)</option>
+<option value='virgo'>Mi Note (Virgo)</option>
+<option value='leo'>Mi Note Pro (Leo)</option>
+<option value='scorpio'>Mi Note 2 (Scorpio)</option>
+<option value='omega'>Redmi Pro (Omega)</option>
+<option value='ido'>Redmi 3 (Ido)</option>
+<option value='land'>Redmi 3X/S (Land)</option>
+<option value='prada'>Redmi 4 (Prada)</option>
+<option value='markw'>Redmi 4Pro (Markw)</option>
+<option value='rolex'>Redmi 4A (Rolex)</option>
+<option value='santoni'>Redmi 4X (Santoni)</option>
+<option value='hermes'>Redmi Note 2 (Hermes)</option>
+<option value='hennessy'>Redmi Note 3 (Hennessy)</option>
+<option value='kenzo'>Redmi Note 3Pro (Kenzo)</option>
+<option value='kate'>Redmi Note 3SE (Kate)</option>
+<option value='nikel'>Redmi Note 4 (Nikel)</option>
+<option value='mido'>Redmi Note 4X (Mido)</option>
+<option value='ugg'>Redmi Note 5A (Ugg)</option>
+<option value='ugglite'>Redmi Note 5A Lite (Ugglite)</option>
+<option value='latte'>Mi Pad 2 (Latte)</option>
+<option value='cappu'>Mi Pad 3 (Cappu)</option>
+</select>
+</div>
+<input  type="submit" name="do" value="Unduh" class="btn btn-primary btn-block" /> 
+</div>
+</form>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title faa-parent animated-hover" data-toggle="collapse" data-target="#collapseActive2a"><strong>MIUI 7.9.7 Beta</strong> <i class="fa fa-download pull-right faa-flash"></i></h4>
+</div>
+<div id="collapseActive2a" class="panel-collapse collapse">
+<div class="panel-body">
+<form class="pull-center" name='mayomip2' action='' method='post'>
+<input type='hidden' name='submitted' value='1' />
+<select class="form-control" onchange="mayomi2.action = 'https://miui.mifans.web.id/mmod/beauty/globeROM_BeautyMod_' + this.options[this.selectedIndex].value +'_7.9.7_cclock.zip';">
+<option value='#' selected='selected'>Devices (Codename)</option>
+<option value='aries'>Mi2S (Aries)</option>
+<option value='cancro'>Mi3/4 (Cancro)</option>
+<option value='libra'>Mi4c (Libra)</option>
+<option value='aqua'>Mi4s (Aqua)</option>
+<option value='gemini'>Mi5/5Pro (Gemini)</option>
+<option value='song'>Mi5c (Meri/Song)</option>
+<option value='tiffany'>Mi5x (Tiffany)</option>
+<option value='capricorn'>Mi5s (Capricorn)</option>
+<option value='natrium'>Mi5s Plus (Natrium)</option>
+<option value='sagit'>Mi6 (Sagit)</option>
+<option value='hydrogen'>Mi Max (Hydrogen)</option>
+<option value='helium'>Mi Max Pro (Helium)</option>
+<option value='ocygen'>Mi Max 2 (Oxygen)</option>
+<option value='lithium'>Mi Mix (Lithium)</option>
+<option value='virgo'>Mi Note (Virgo)</option>
+<option value='leo'>Mi Note Pro (Leo)</option>
+<option value='scorpio'>Mi Note 2 (Scorpio)</option>
+<option value='omega'>Redmi Pro (Omega)</option>
+<option value='ido'>Redmi 3 (Ido)</option>
+<option value='land'>Redmi 3X/S (Land)</option>
+<option value='prada'>Redmi 4 (Prada)</option>
+<option value='markw'>Redmi 4Pro (Markw)</option>
+<option value='rolex'>Redmi 4A (Rolex)</option>
+<option value='santoni'>Redmi 4X (Santoni)</option>
+<option value='hermes'>Redmi Note 2 (Hermes)</option>
+<option value='hennessy'>Redmi Note 3 (Hennessy)</option>
+<option value='kenzo'>Redmi Note 3Pro (Kenzo)</option>
+<option value='kate'>Redmi Note 3SE (Kate)</option>
+<option value='nikel'>Redmi Note 4 (Nikel)</option>
+<option value='mido'>Redmi Note 4X (Mido)</option>
+<option value='ugg'>Redmi Note 5A (Ugg)</option>
+<option value='ugglite'>Redmi Note 5A Lite (Ugglite)</option>
+<option value='latte'>Mi Pad 2 (Latte)</option>
+<option value='cappu'>Mi Pad 3 (Cappu)</option>
+</select>
+</div>
+<input  type="submit" name="do" value="Unduh" class="btn btn-primary btn-block" /> 
+</div>
+</form>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title faa-parent animated-hover" data-toggle="collapse" data-target="#collapseActive3a"><strong>MIUI 7.6.8 Beta </strong><i class="fa fa-download pull-right faa-float"></i></h4>
+</div>
+<div id="collapseActive3a" class="panel-collapse collapse">
+<div class="panel-body">
+<form class="pull-center" name='mayomip3' action='' method='post'>
+<input type='hidden' name='submitted' value='1' />
+<select class="form-control" onchange="mayomip3.action = 'https://miui.mifans.web.id/mmod/beauty/globeROM_BeautyMod_' + this.options[this.selectedIndex].value +'_7.6.8_cclock.zip';">
+<option value='#' selected='selected'>Devices (Codename)</option>
+<option value='aries'>Mi2S (Aries)</option>
+<option value='cancro'>Mi3/4 (Cancro)</option>
+<option value='libra'>Mi4c (Libra)</option>
+<option value='aqua'>Mi4s (Aqua)</option>
+<option value='gemini'>Mi5/5Pro (Gemini)</option>
+<option value='song'>Mi5c (Meri/Song)</option>
+<option value='tiffany'>Mi5x (Tiffany)</option>
+<option value='capricorn'>Mi5s (Capricorn)</option>
+<option value='natrium'>Mi5s Plus (Natrium)</option>
+<option value='sagit'>Mi6 (Sagit)</option>
+<option value='hydrogen'>Mi Max (Hydrogen)</option>
+<option value='helium'>Mi Max Pro (Helium)</option>
+<option value='ocygen'>Mi Max 2 (Oxygen)</option>
+<option value='lithium'>Mi Mix (Lithium)</option>
+<option value='virgo'>Mi Note (Virgo)</option>
+<option value='leo'>Mi Note Pro (Leo)</option>
+<option value='scorpio'>Mi Note 2 (Scorpio)</option>
+<option value='omega'>Redmi Pro (Omega)</option>
+<option value='ido'>Redmi 3 (Ido)</option>
+<option value='land'>Redmi 3X/S (Land)</option>
+<option value='prada'>Redmi 4 (Prada)</option>
+<option value='markw'>Redmi 4Pro (Markw)</option>
+<option value='rolex'>Redmi 4A (Rolex)</option>
+<option value='santoni'>Redmi 4X (Santoni)</option>
+<option value='hermes'>Redmi Note 2 (Hermes)</option>
+<option value='hennessy'>Redmi Note 3 (Hennessy)</option>
+<option value='kenzo'>Redmi Note 3Pro (Kenzo)</option>
+<option value='kate'>Redmi Note 3SE (Kate)</option>
+<option value='nikel'>Redmi Note 4 (Nikel)</option>
+<option value='mido'>Redmi Note 4X (Mido)</option>
+<option value='ugg'>Redmi Note 5A (Ugg)</option>
+<option value='ugglite'>Redmi Note 5A Lite (Ugglite)</option>
+<option value='latte'>Mi Pad 2 (Latte)</option>
+<option value='cappu'>Mi Pad 3 (Cappu)</option>
+</select>
+</div>
+<input  type="submit" name="do" value="Unduh" class="btn btn-primary btn-block" /> 
+</div>
+</form>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h3 class="panel-title faa-parent animated-hover" data-toggle="collapse" data-target="#collapseActive4a"><strong>Uninstaller</strong> <i class="fa fa-trash-o pull-right faa-horizontal"></i></h3>
+</div>
+<div id="collapseActive4a" class="panel-collapse collapse">
+<div class="panel-body">
+Akan datang..</div>
+<a class="btn btn-warning btn-xs btn-block disabled">Selengkapnya <i class="fa fa-chevron-right faa-passing animated"></i></a>
+</div>
+</div>
+
+</div>
+
+<div class="col-md-4 panel-group">
+<h2>Reboot Lanjutan</h2>
+<div class="panel panel-default">
+  <div class="panel-heading">Penampakan</div>
+  <div class="panel-body">
+ <img src="https://explore.mifans.web.id/gambar/3wayreboot.png" clas="mayo"/>
+  </div>
+</div>
+
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title faa-parent animated-hover" data-toggle="collapse" data-target="#collapseActive1b"><strong>MIUI 7.9.14 Beta</strong> <i class="fa fa-download pull-right faa-horizontal faa-tada"></i></h4>
+</div>
+<div id="collapseActive1b" class="panel-collapse collapse">
+ <div class="panel-body">
+<form class="pull-center" name='mayomia1' action='' method='post'>
+<input type='hidden' name='submitted' value='1' />
+
+<select class="form-control" onchange="mayomia1.action = 'https://miui.mifans.web.id/mmod/3wboot/globeROM_3WayReboot_' + this.options[this.selectedIndex].value +'_7.9.14_enable.zip';">
+<option value='#' selected='selected'>Devices (Codename)</option>
+<option value='aries'>Mi2S (Aries)</option>
+<option value='cancro'>Mi3/4 (Cancro)</option>
+<option value='libra'>Mi4c (Libra)</option>
+<option value='aqua'>Mi4s (Aqua)</option>
+<option value='gemini'>Mi5/5Pro (Gemini)</option>
+<option value='song'>Mi5c (Meri/Song)</option>
+<option value='tiffany'>Mi5x (Tiffany)</option>
+<option value='capricorn'>Mi5s (Capricorn)</option>
+<option value='natrium'>Mi5s Plus (Natrium)</option>
+<option value='sagit'>Mi6 (Sagit)</option>
+<option value='hydrogen'>Mi Max (Hydrogen)</option>
+<option value='helium'>Mi Max Pro (Helium)</option>
+<option value='ocygen'>Mi Max 2 (Oxygen)</option>
+<option value='lithium'>Mi Mix (Lithium)</option>
+<option value='virgo'>Mi Note (Virgo)</option>
+<option value='leo'>Mi Note Pro (Leo)</option>
+<option value='scorpio'>Mi Note 2 (Scorpio)</option>
+<option value='omega'>Redmi Pro (Omega)</option>
+<option value='ido'>Redmi 3 (Ido)</option>
+<option value='land'>Redmi 3X/S (Land)</option>
+<option value='prada'>Redmi 4 (Prada)</option>
+<option value='markw'>Redmi 4Pro (Markw)</option>
+<option value='rolex'>Redmi 4A (Rolex)</option>
+<option value='santoni'>Redmi 4X (Santoni)</option>
+<option value='hermes'>Redmi Note 2 (Hermes)</option>
+<option value='hennessy'>Redmi Note 3 (Hennessy)</option>
+<option value='kenzo'>Redmi Note 3Pro (Kenzo)</option>
+<option value='kate'>Redmi Note 3SE (Kate)</option>
+<option value='nikel'>Redmi Note 4 (Nikel)</option>
+<option value='mido'>Redmi Note 4X (Mido)</option>
+<option value='ugg'>Redmi Note 5A (Ugg)</option>
+<option value='ugglite'>Redmi Note 5A Lite (Ugglite)</option>
+<option value='latte'>Mi Pad 2 (Latte)</option>
+<option value='cappu'>Mi Pad 3 (Cappu)</option>
+</select>
+</div>
+<input  type="submit" name="do" value="Unduh" class="btn btn-primary btn-block" /> 
+</div>
+</form>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title faa-parent animated-hover" data-toggle="collapse" data-target="#collapseActive2b"><strong>MIUI 7.9.7 Beta</strong> <i class="fa fa-download pull-right faa-flash"></i></h4>
+</div>
+<div id="collapseActive2b" class="panel-collapse collapse">
+<div class="panel-body">
+<form class="pull-center" name='mayomia2' action='' method='post'>
+<input type='hidden' name='submitted' value='1' />
+<select class="form-control" onchange="mayomia2.action = 'https://miui.mifans.web.id/mmod/3wboot/globeROM_3WayReboot_' + this.options[this.selectedIndex].value +'_7.9.7_enable.zip';">
+<option value='#' selected='selected'>Devices (Codename)</option>
+<option value='aries'>Mi2S (Aries)</option>
+<option value='cancro'>Mi3/4 (Cancro)</option>
+<option value='libra'>Mi4c (Libra)</option>
+<option value='aqua'>Mi4s (Aqua)</option>
+<option value='gemini'>Mi5/5Pro (Gemini)</option>
+<option value='song'>Mi5c (Meri/Song)</option>
+<option value='tiffany'>Mi5x (Tiffany)</option>
+<option value='capricorn'>Mi5s (Capricorn)</option>
+<option value='natrium'>Mi5s Plus (Natrium)</option>
+<option value='sagit'>Mi6 (Sagit)</option>
+<option value='hydrogen'>Mi Max (Hydrogen)</option>
+<option value='helium'>Mi Max Pro (Helium)</option>
+<option value='ocygen'>Mi Max 2 (Oxygen)</option>
+<option value='lithium'>Mi Mix (Lithium)</option>
+<option value='virgo'>Mi Note (Virgo)</option>
+<option value='leo'>Mi Note Pro (Leo)</option>
+<option value='scorpio'>Mi Note 2 (Scorpio)</option>
+<option value='omega'>Redmi Pro (Omega)</option>
+<option value='ido'>Redmi 3 (Ido)</option>
+<option value='land'>Redmi 3X/S (Land)</option>
+<option value='prada'>Redmi 4 (Prada)</option>
+<option value='markw'>Redmi 4Pro (Markw)</option>
+<option value='rolex'>Redmi 4A (Rolex)</option>
+<option value='santoni'>Redmi 4X (Santoni)</option>
+<option value='hermes'>Redmi Note 2 (Hermes)</option>
+<option value='hennessy'>Redmi Note 3 (Hennessy)</option>
+<option value='kenzo'>Redmi Note 3Pro (Kenzo)</option>
+<option value='kate'>Redmi Note 3SE (Kate)</option>
+<option value='nikel'>Redmi Note 4 (Nikel)</option>
+<option value='mido'>Redmi Note 4X (Mido)</option>
+<option value='ugg'>Redmi Note 5A (Ugg)</option>
+<option value='ugglite'>Redmi Note 5A Lite (Ugglite)</option>
+<option value='latte'>Mi Pad 2 (Latte)</option>
+<option value='cappu'>Mi Pad 3 (Cappu)</option>
+</select>
+</div>
+<input  type="submit" name="do" value="Unduh" class="btn btn-primary btn-block" /> 
+</div>
+</form>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title faa-parent animated-hover" data-toggle="collapse" data-target="#collapseActive3b"><strong>MIUI 7.6.8 Beta </strong><i class="fa fa-download pull-right faa-float"></i></h4>
+</div>
+<div id="collapseActive3b" class="panel-collapse collapse">
+<div class="panel-body">
+<form class="pull-center" name='mayomia3' action='' method='post'>
+<input type='hidden' name='submitted' value='1' />
+<select class="form-control" onchange="mayomia3.action = 'https://miui.mifans.web.id/mmod/3wboot/globeROM_3WayReboot_' + this.options[this.selectedIndex].value +'_7.6.8_enable.zip';">
+<option value='#' selected='selected'>Devices (Codename)</option>
+<option value='aries'>Mi2S (Aries)</option>
+<option value='cancro'>Mi3/4 (Cancro)</option>
+<option value='libra'>Mi4c (Libra)</option>
+<option value='aqua'>Mi4s (Aqua)</option>
+<option value='gemini'>Mi5/5Pro (Gemini)</option>
+<option value='song'>Mi5c (Meri/Song)</option>
+<option value='tiffany'>Mi5x (Tiffany)</option>
+<option value='capricorn'>Mi5s (Capricorn)</option>
+<option value='natrium'>Mi5s Plus (Natrium)</option>
+<option value='sagit'>Mi6 (Sagit)</option>
+<option value='hydrogen'>Mi Max (Hydrogen)</option>
+<option value='helium'>Mi Max Pro (Helium)</option>
+<option value='ocygen'>Mi Max 2 (Oxygen)</option>
+<option value='lithium'>Mi Mix (Lithium)</option>
+<option value='virgo'>Mi Note (Virgo)</option>
+<option value='leo'>Mi Note Pro (Leo)</option>
+<option value='scorpio'>Mi Note 2 (Scorpio)</option>
+<option value='omega'>Redmi Pro (Omega)</option>
+<option value='ido'>Redmi 3 (Ido)</option>
+<option value='land'>Redmi 3X/S (Land)</option>
+<option value='prada'>Redmi 4 (Prada)</option>
+<option value='markw'>Redmi 4Pro (Markw)</option>
+<option value='rolex'>Redmi 4A (Rolex)</option>
+<option value='santoni'>Redmi 4X (Santoni)</option>
+<option value='hermes'>Redmi Note 2 (Hermes)</option>
+<option value='hennessy'>Redmi Note 3 (Hennessy)</option>
+<option value='kenzo'>Redmi Note 3Pro (Kenzo)</option>
+<option value='kate'>Redmi Note 3SE (Kate)</option>
+<option value='nikel'>Redmi Note 4 (Nikel)</option>
+<option value='mido'>Redmi Note 4X (Mido)</option>
+<option value='ugg'>Redmi Note 5A (Ugg)</option>
+<option value='ugglite'>Redmi Note 5A Lite (Ugglite)</option>
+<option value='latte'>Mi Pad 2 (Latte)</option>
+<option value='cappu'>Mi Pad 3 (Cappu)</option>
+</select>
+</div>
+<input  type="submit" name="do" value="Unduh" class="btn btn-primary btn-block" /> 
+</div>
+</form>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h3 class="panel-title faa-parent animated-hover" data-toggle="collapse" data-target="#collapseActive4b"><strong>Uninstaller</strong> <i class="fa fa-trash-o pull-right faa-horizontal"></i></h3>
+</div>
+<div id="collapseActive4b" class="panel-collapse collapse">
+<div class="panel-body">
+Akan datang..</div>
+<a class="btn btn-warning btn-xs btn-block disabled">Selengkapnya <i class="fa fa-chevron-right faa-passing animated"></i></a>
+</div>
+</div>
+
+</div>
+
+</div>
+<hr/>
+<h2>Kernel Tweaks</h2>
+<div class="panel panel-default" >
+<div class="panel-heading">
+<h3 class="panel-title faa-parent animated-hover" data-toggle="collapse" data-target="#asem">Modifan (boot.img)<i class="fa fa-tachometer pull-right faa-pulse animated"></i>
+</div>
+<div id="asem" class="panel-collapse collapse">
+<div class="panel-body">
+<strong>Fitur </strong>
+<pre>
+-Original Xiaomi Kernel
+-init.d Support -> Let your system run scripts on boot
+-Root-Script Support -> init.d Scripts will run as root, even if you install "no-root" version
+-Optionally Rooted with latest Magisk Root
+-Reduced battery consumption
+-Longer battery life
+-UI performance improvements
+-globeROM init.d - Scripts
+-Tweaked init services
+-Tweaked initramfs
+-Tweaked default properties
+-Prepared for usage with unlocked Bootloaders
+-Prepared for usage with unofficially unlocked ROMs
+-Disabled system-Partition verification
+-Busybox included
+</pre>
+<a href="#linkM" class="btn btn-primary btn-block" data-toggle="modal" data-target="#miyaku">Unduh Custom Kernel</a>
+</div>
+</div>
+</div>
+
+
+
+
+ <div class="modal fade" id="miyaku" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+				<h4 class="modal-title" id="about-label"><strong>Pilih Perangkat & Versi MIUI kakak</strong></h4>
+				</div>
+      <div class="modal-body">
+	  <!-- isinya di sini m -->
+<ul class="nav nav-tabs">
+  <li class="active"><a href="#Mv1" data-toggle="tab" aria-expanded="true">7.9.14</a></li>
+  <li class=""><a href="#Mv2" data-toggle="tab" aria-expanded="false">7.9.7</a></li>
+  <li class="disabled"><a>7.6.8</a></li>
+  <li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+      Stabil <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a href="#dropdown1" data-toggle="tab">Global</a></li>
+      <li class="divider"></li>
+      <li><a href="#dropdown2" data-toggle="tab">China</a></li>
+    </ul>
+  </li>
+</ul>
+<div id="myTabContent" class="tab-content">
+  <div class="tab-pane fade active in" id="Mv1">
+  
+  <!-- mumet juga -->
+  
+<h4>Non-Rooted</h4>
+    <form class="pull-center" name='miya' action='' method='post'>
+<input type='hidden' name='submitted' value='1' />
+<select class="form-control" onchange="miya.action = 'https://miui.mifans.web.id/mmod/pboot/globeROM_AdvancedBootIMG_' + this.options[this.selectedIndex].value +'_7.9.14_no-root.zip';">
+<option value='#' selected='selected'>Devices (Codename)</option>
+<option value='aries'>Mi2S (Aries)</option>
+<option value='cancro'>Mi3/4 (Cancro)</option>
+<option value='libra'>Mi4c (Libra)</option>
+<option value='aqua'>Mi4s (Aqua)</option>
+<option value='gemini'>Mi5/5Pro (Gemini)</option>
+<option value='song'>Mi5c (Meri/Song)</option>
+<option value='tiffany'>Mi5x (Tiffany)</option>
+<option value='capricorn'>Mi5s (Capricorn)</option>
+<option value='natrium'>Mi5s Plus (Natrium)</option>
+<option value='sagit'>Mi6 (Sagit)</option>
+<option value='hydrogen'>Mi Max (Hydrogen)</option>
+<option value='helium'>Mi Max Pro (Helium)</option>
+<option value='ocygen'>Mi Max 2 (Oxygen)</option>
+<option value='lithium'>Mi Mix (Lithium)</option>
+<option value='virgo'>Mi Note (Virgo)</option>
+<option value='leo'>Mi Note Pro (Leo)</option>
+<option value='scorpio'>Mi Note 2 (Scorpio)</option>
+<option value='omega'>Redmi Pro (Omega)</option>
+<option value='ido'>Redmi 3 (Ido)</option>
+<option value='land'>Redmi 3X/S (Land)</option>
+<option value='prada'>Redmi 4 (Prada)</option>
+<option value='markw'>Redmi 4Pro (Markw)</option>
+<option value='rolex'>Redmi 4A (Rolex)</option>
+<option value='santoni'>Redmi 4X (Santoni)</option>
+<option value='hermes'>Redmi Note 2 (Hermes)</option>
+<option value='hennessy'>Redmi Note 3 (Hennessy)</option>
+<option value='kenzo'>Redmi Note 3Pro (Kenzo)</option>
+<option value='kate'>Redmi Note 3SE (Kate)</option>
+<option value='nikel'>Redmi Note 4 (Nikel)</option>
+<option value='mido'>Redmi Note 4X (Mido)</option>
+<option value='ugg'>Redmi Note 5A (Ugg)</option>
+<option value='ugglite'>Redmi Note 5A Lite (Ugglite)</option>
+<option value='latte'>Mi Pad 2 (Latte)</option>
+<option value='cappu'>Mi Pad 3 (Cappu)</option>
+</select>
+<input  type="submit" name="do" value="Unduh" class="btn btn-primary btn-block" /> 
+</form>
+
+<h4>Rooted</h4>
+    <form class="pull-center" name='miyaa' action='' method='post'>
+<input type='hidden' name='submitted' value='1' />
+<select class="form-control" onchange="miyaa.action = 'https://miui.mifans.web.id/mmod/pboot/globeROM_AdvancedBootIMG_' + this.options[this.selectedIndex].value +'_7.9.14_rooted.zip';">
+<option value='#' selected='selected'>Devices (Codename)</option>
+<option value='aries'>Mi2S (Aries)</option>
+<option value='cancro'>Mi3/4 (Cancro)</option>
+<option value='libra'>Mi4c (Libra)</option>
+<option value='aqua'>Mi4s (Aqua)</option>
+<option value='gemini'>Mi5/5Pro (Gemini)</option>
+<option value='song'>Mi5c (Meri/Song)</option>
+<option value='tiffany'>Mi5x (Tiffany)</option>
+<option value='capricorn'>Mi5s (Capricorn)</option>
+<option value='natrium'>Mi5s Plus (Natrium)</option>
+<option value='sagit'>Mi6 (Sagit)</option>
+<option value='hydrogen'>Mi Max (Hydrogen)</option>
+<option value='helium'>Mi Max Pro (Helium)</option>
+<option value='ocygen'>Mi Max 2 (Oxygen)</option>
+<option value='lithium'>Mi Mix (Lithium)</option>
+<option value='virgo'>Mi Note (Virgo)</option>
+<option value='leo'>Mi Note Pro (Leo)</option>
+<option value='scorpio'>Mi Note 2 (Scorpio)</option>
+<option value='omega'>Redmi Pro (Omega)</option>
+<option value='ido'>Redmi 3 (Ido)</option>
+<option value='land'>Redmi 3X/S (Land)</option>
+<option value='prada'>Redmi 4 (Prada)</option>
+<option value='markw'>Redmi 4Pro (Markw)</option>
+<option value='rolex'>Redmi 4A (Rolex)</option>
+<option value='santoni'>Redmi 4X (Santoni)</option>
+<option value='hermes'>Redmi Note 2 (Hermes)</option>
+<option value='hennessy'>Redmi Note 3 (Hennessy)</option>
+<option value='kenzo'>Redmi Note 3Pro (Kenzo)</option>
+<option value='kate'>Redmi Note 3SE (Kate)</option>
+<option value='nikel'>Redmi Note 4 (Nikel)</option>
+<option value='mido'>Redmi Note 4X (Mido)</option>
+<option value='ugg'>Redmi Note 5A (Ugg)</option>
+<option value='ugglite'>Redmi Note 5A Lite (Ugglite)</option>
+<option value='latte'>Mi Pad 2 (Latte)</option>
+<option value='cappu'>Mi Pad 3 (Cappu)</option>
+</select>
+<input  type="submit" name="do" value="Unduh" class="btn btn-primary btn-block" /> 
+</form>
+  </div>
+  <div class="tab-pane fade" id="Mv2">
+   <!-- mumet juga -->
+  
+<h4>Non-Rooted</h4>
+    <form class="pull-center" name='mayo' action='' method='post'>
+<input type='hidden' name='submitted' value='1' />
+<select class="form-control" onchange="mayo.action = 'https://miui.mifans.web.id/mmod/pboot/globeROM_AdvancedBootIMG_' + this.options[this.selectedIndex].value +'_7.9.7_no-root.zip';">
+<option value='#' selected='selected'>Devices (Codename)</option>
+<option value='aries'>Mi2S (Aries)</option>
+<option value='cancro'>Mi3/4 (Cancro)</option>
+<option value='libra'>Mi4c (Libra)</option>
+<option value='aqua'>Mi4s (Aqua)</option>
+<option value='gemini'>Mi5/5Pro (Gemini)</option>
+<option value='song'>Mi5c (Meri/Song)</option>
+<option value='tiffany'>Mi5x (Tiffany)</option>
+<option value='capricorn'>Mi5s (Capricorn)</option>
+<option value='natrium'>Mi5s Plus (Natrium)</option>
+<option value='sagit'>Mi6 (Sagit)</option>
+<option value='hydrogen'>Mi Max (Hydrogen)</option>
+<option value='helium'>Mi Max Pro (Helium)</option>
+<option value='ocygen'>Mi Max 2 (Oxygen)</option>
+<option value='lithium'>Mi Mix (Lithium)</option>
+<option value='virgo'>Mi Note (Virgo)</option>
+<option value='leo'>Mi Note Pro (Leo)</option>
+<option value='scorpio'>Mi Note 2 (Scorpio)</option>
+<option value='omega'>Redmi Pro (Omega)</option>
+<option value='ido'>Redmi 3 (Ido)</option>
+<option value='land'>Redmi 3X/S (Land)</option>
+<option value='prada'>Redmi 4 (Prada)</option>
+<option value='markw'>Redmi 4Pro (Markw)</option>
+<option value='rolex'>Redmi 4A (Rolex)</option>
+<option value='santoni'>Redmi 4X (Santoni)</option>
+<option value='hermes'>Redmi Note 2 (Hermes)</option>
+<option value='hennessy'>Redmi Note 3 (Hennessy)</option>
+<option value='kenzo'>Redmi Note 3Pro (Kenzo)</option>
+<option value='kate'>Redmi Note 3SE (Kate)</option>
+<option value='nikel'>Redmi Note 4 (Nikel)</option>
+<option value='mido'>Redmi Note 4X (Mido)</option>
+<option value='ugg'>Redmi Note 5A (Ugg)</option>
+<option value='ugglite'>Redmi Note 5A Lite (Ugglite)</option>
+<option value='latte'>Mi Pad 2 (Latte)</option>
+<option value='cappu'>Mi Pad 3 (Cappu)</option>
+</select>
+<input  type="submit" name="do" value="Unduh" class="btn btn-primary btn-block" /> 
+</form>
+
+<h4>Rooted</h4>
+    <form class="pull-center" name='mayom' action='' method='post'>
+<input type='hidden' name='submitted' value='1' />
+<select class="form-control" onchange="mayom.action = 'https://miui.mifans.web.id/mmod/pboot/globeROM_AdvancedBootIMG_' + this.options[this.selectedIndex].value +'_7.9.7_rooted.zip';">
+<option value='#' selected='selected'>Devices (Codename)</option>
+<option value='aries'>Mi2S (Aries)</option>
+<option value='cancro'>Mi3/4 (Cancro)</option>
+<option value='libra'>Mi4c (Libra)</option>
+<option value='aqua'>Mi4s (Aqua)</option>
+<option value='gemini'>Mi5/5Pro (Gemini)</option>
+<option value='song'>Mi5c (Meri/Song)</option>
+<option value='tiffany'>Mi5x (Tiffany)</option>
+<option value='capricorn'>Mi5s (Capricorn)</option>
+<option value='natrium'>Mi5s Plus (Natrium)</option>
+<option value='sagit'>Mi6 (Sagit)</option>
+<option value='hydrogen'>Mi Max (Hydrogen)</option>
+<option value='helium'>Mi Max Pro (Helium)</option>
+<option value='ocygen'>Mi Max 2 (Oxygen)</option>
+<option value='lithium'>Mi Mix (Lithium)</option>
+<option value='virgo'>Mi Note (Virgo)</option>
+<option value='leo'>Mi Note Pro (Leo)</option>
+<option value='scorpio'>Mi Note 2 (Scorpio)</option>
+<option value='omega'>Redmi Pro (Omega)</option>
+<option value='ido'>Redmi 3 (Ido)</option>
+<option value='land'>Redmi 3X/S (Land)</option>
+<option value='prada'>Redmi 4 (Prada)</option>
+<option value='markw'>Redmi 4Pro (Markw)</option>
+<option value='rolex'>Redmi 4A (Rolex)</option>
+<option value='santoni'>Redmi 4X (Santoni)</option>
+<option value='hermes'>Redmi Note 2 (Hermes)</option>
+<option value='hennessy'>Redmi Note 3 (Hennessy)</option>
+<option value='kenzo'>Redmi Note 3Pro (Kenzo)</option>
+<option value='kate'>Redmi Note 3SE (Kate)</option>
+<option value='nikel'>Redmi Note 4 (Nikel)</option>
+<option value='mido'>Redmi Note 4X (Mido)</option>
+<option value='ugg'>Redmi Note 5A (Ugg)</option>
+<option value='ugglite'>Redmi Note 5A Lite (Ugglite)</option>
+<option value='latte'>Mi Pad 2 (Latte)</option>
+<option value='cappu'>Mi Pad 3 (Cappu)</option>
+</select>
+<input  type="submit" name="do" value="Unduh" class="btn btn-primary btn-block" /> 
+</form>
+  </div>
+  <div class="tab-pane fade" id="dropdown1">
+    <p>Akan datang..</p>
+  </div>
+  <div class="tab-pane fade" id="dropdown2">
+    <p>Akan datang..</p>
+  </div>
+</div>
+</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-warning" data-dismiss="modal">Tutup</button>
+</div></div></div></div>
+
+<br />			
+
+
+<h6 class="alert alert-dismissible alert-danger text-center">The Content-File was provided by Mi-Globe.com. Use this you already to private this curl/get.</h6>
