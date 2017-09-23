@@ -1,6 +1,6 @@
 <!-- Mulai M -->
 
-<!-- Weekly Released Note 7.9.14 &#124; 7.9.7 &#124; 7.6.8 -->
+<!-- Weekly Released Note 7.9.21 &#124; 7.9.14 &#124; 7.9.7 -->
 <div class="alert alert-dismissable alert-info"><button type="button" class="close" data-dismiss="alert">x</button>
 <h5><b>Notifikasi</b> Tutorial Cara Backup & Install nya kakak bisa baca <a href="/?u=/miui-mod/">di sini</a>. Untuk tau codename devices kakak, kakak bisa cek <a href="https://mifans.web.id/p/3580?ref=SL">di sini</a>.</h5>
 </div>
@@ -18,14 +18,14 @@
 
 <div class="panel panel-default">
 <div class="panel-heading">
-<h4 class="panel-title faa-parent animated-hover" data-toggle="collapse" data-target="#collapseActive1"><strong>MIUI 7.9.14 Beta</strong> <i class="fa fa-download pull-right faa-horizontal faa-tada"></i></h4>
+<h4 class="panel-title faa-parent animated-hover" data-toggle="collapse" data-target="#collapseActive1"><strong>MIUI 7.9.21 Beta</strong> <i class="fa fa-download pull-right faa-horizontal faa-tada"></i></h4>
 </div>
 <div id="collapseActive1" class="panel-collapse collapse">
  <div class="panel-body">
 <form class="pull-center" name='mayomi1' action='' method='post'>
 <input type='hidden' name='submitted' value='1' />
 
-<select class="form-control" onchange="mayomi1.action = 'https://miui.mifans.web.id/mmod/cclock/globeROM_CenterClock_' + this.options[this.selectedIndex].value +'_7.9.14_enable.zip';">
+<select class="form-control" onchange="mayomi1.action = 'https://miui.mifans.web.id/mmod/cclock/globeROM_CenterClock_' + this.options[this.selectedIndex].value +'_7.9.21_enable.zip';">
 <option value='#' selected='selected'>Devices (Codename)</option>
 <option value='aries'>Mi2S (Aries)</option>
 <option value='cancro'>Mi3/4 (Cancro)</option>
@@ -69,13 +69,13 @@
 </div>
 <div class="panel panel-default">
 <div class="panel-heading">
-<h4 class="panel-title faa-parent animated-hover" data-toggle="collapse" data-target="#collapseActive2"><strong>MIUI 7.9.7 Beta</strong> <i class="fa fa-download pull-right faa-flash"></i></h4>
+<h4 class="panel-title faa-parent animated-hover" data-toggle="collapse" data-target="#collapseActive2"><strong>MIUI 7.9.14 Beta</strong> <i class="fa fa-download pull-right faa-flash"></i></h4>
 </div>
 <div id="collapseActive2" class="panel-collapse collapse">
 <div class="panel-body">
 <form class="pull-center" name='mayomi2' action='' method='post'>
 <input type='hidden' name='submitted' value='1' />
-<select class="form-control" onchange="mayomi2.action = 'https://miui.mifans.web.id/mmod/cclock/globeROM_CenterClock_' + this.options[this.selectedIndex].value +'_7.9.7_enable.zip';">
+<select class="form-control" onchange="mayomi2.action = 'https://miui.mifans.web.id/mmod/cclock/globeROM_CenterClock_' + this.options[this.selectedIndex].value +'_7.9.14_enable.zip';">
 <option value='#' selected='selected'>Devices (Codename)</option>
 <option value='aries'>Mi2S (Aries)</option>
 <option value='cancro'>Mi3/4 (Cancro)</option>
@@ -119,13 +119,13 @@
 </div>
 <div class="panel panel-default">
 <div class="panel-heading">
-<h4 class="panel-title faa-parent animated-hover" data-toggle="collapse" data-target="#collapseActive3"><strong>MIUI 7.6.8 Beta </strong><i class="fa fa-download pull-right faa-float"></i></h4>
+<h4 class="panel-title faa-parent animated-hover" data-toggle="collapse" data-target="#collapseActive3"><strong>MIUI 7.9.7 Beta </strong><i class="fa fa-download pull-right faa-float"></i></h4>
 </div>
 <div id="collapseActive3" class="panel-collapse collapse">
 <div class="panel-body">
 <form class="pull-center" name='mayomi3' action='' method='post'>
 <input type='hidden' name='submitted' value='1' />
-<select class="form-control" onchange="mayomi3.action = 'https://miui.mifans.web.id/mmod/cclock/globeROM_CenterClock_' + this.options[this.selectedIndex].value +'_7.6.8_enable.zip';">
+<select class="form-control" onchange="mayomi3.action = 'https://miui.mifans.web.id/mmod/cclock/globeROM_CenterClock_' + this.options[this.selectedIndex].value +'_7.9.7_enable.zip';">
 <option value='#' selected='selected'>Devices (Codename)</option>
 <option value='aries'>Mi2S (Aries)</option>
 <option value='cancro'>Mi3/4 (Cancro)</option>
@@ -191,13 +191,13 @@ Akan datang..</div>
 
 <div class="panel panel-default">
 <div class="panel-heading">
-<h4 class="panel-title faa-parent animated-hover" data-toggle="collapse" data-target="#collapseActive1a"><strong>MIUI 7.9.14 Beta</strong> <i class="fa fa-download pull-right faa-horizontal faa-tada"></i></h4>
+<h4 class="panel-title faa-parent animated-hover" data-toggle="collapse" data-target="#collapseActive1a"><strong>MIUI 7.9.21 Beta</strong> <i class="fa fa-download pull-right faa-horizontal faa-tada"></i></h4>
 </div>
 <div id="collapseActive1a" class="panel-collapse collapse">
  <div class="panel-body">
 <form class="pull-center" name='mayomip1' action='' method='post'>
 <input type='hidden' name='submitted' value='1' />
-<select class="form-control" onchange="mayomip1.action = 'https://miui.mifans.web.id/mmod/beauty/globeROM_BeautyMod_' + this.options[this.selectedIndex].value +'_7.9.14_cclock.zip';">
+<select class="form-control" onchange="mayomip1.action = 'https://miui.mifans.web.id/mmod/beauty/globeROM_BeautyMod_' + this.options[this.selectedIndex].value +'_7.9.21_cclock.zip';">
 <option value='#' selected='selected'>Devices (Codename)</option>
 <option value='aries'>Mi2S (Aries)</option>
 <option value='cancro'>Mi3/4 (Cancro)</option>
@@ -241,13 +241,13 @@ Akan datang..</div>
 </div>
 <div class="panel panel-default">
 <div class="panel-heading">
-<h4 class="panel-title faa-parent animated-hover" data-toggle="collapse" data-target="#collapseActive2a"><strong>MIUI 7.9.7 Beta</strong> <i class="fa fa-download pull-right faa-flash"></i></h4>
+<h4 class="panel-title faa-parent animated-hover" data-toggle="collapse" data-target="#collapseActive2a"><strong>MIUI 7.9.14 Beta</strong> <i class="fa fa-download pull-right faa-flash"></i></h4>
 </div>
 <div id="collapseActive2a" class="panel-collapse collapse">
 <div class="panel-body">
 <form class="pull-center" name='mayomip2' action='' method='post'>
 <input type='hidden' name='submitted' value='1' />
-<select class="form-control" onchange="mayomi2.action = 'https://miui.mifans.web.id/mmod/beauty/globeROM_BeautyMod_' + this.options[this.selectedIndex].value +'_7.9.7_cclock.zip';">
+<select class="form-control" onchange="mayomi2.action = 'https://miui.mifans.web.id/mmod/beauty/globeROM_BeautyMod_' + this.options[this.selectedIndex].value +'_7.9.14_cclock.zip';">
 <option value='#' selected='selected'>Devices (Codename)</option>
 <option value='aries'>Mi2S (Aries)</option>
 <option value='cancro'>Mi3/4 (Cancro)</option>
@@ -291,13 +291,13 @@ Akan datang..</div>
 </div>
 <div class="panel panel-default">
 <div class="panel-heading">
-<h4 class="panel-title faa-parent animated-hover" data-toggle="collapse" data-target="#collapseActive3a"><strong>MIUI 7.6.8 Beta </strong><i class="fa fa-download pull-right faa-float"></i></h4>
+<h4 class="panel-title faa-parent animated-hover" data-toggle="collapse" data-target="#collapseActive3a"><strong>MIUI 7.9.7 Beta </strong><i class="fa fa-download pull-right faa-float"></i></h4>
 </div>
 <div id="collapseActive3a" class="panel-collapse collapse">
 <div class="panel-body">
 <form class="pull-center" name='mayomip3' action='' method='post'>
 <input type='hidden' name='submitted' value='1' />
-<select class="form-control" onchange="mayomip3.action = 'https://miui.mifans.web.id/mmod/beauty/globeROM_BeautyMod_' + this.options[this.selectedIndex].value +'_7.6.8_cclock.zip';">
+<select class="form-control" onchange="mayomip3.action = 'https://miui.mifans.web.id/mmod/beauty/globeROM_BeautyMod_' + this.options[this.selectedIndex].value +'_7.9.7_cclock.zip';">
 <option value='#' selected='selected'>Devices (Codename)</option>
 <option value='aries'>Mi2S (Aries)</option>
 <option value='cancro'>Mi3/4 (Cancro)</option>
@@ -363,14 +363,14 @@ Akan datang..</div>
 
 <div class="panel panel-default">
 <div class="panel-heading">
-<h4 class="panel-title faa-parent animated-hover" data-toggle="collapse" data-target="#collapseActive1b"><strong>MIUI 7.9.14 Beta</strong> <i class="fa fa-download pull-right faa-horizontal faa-tada"></i></h4>
+<h4 class="panel-title faa-parent animated-hover" data-toggle="collapse" data-target="#collapseActive1b"><strong>MIUI 7.9.21 Beta</strong> <i class="fa fa-download pull-right faa-horizontal faa-tada"></i></h4>
 </div>
 <div id="collapseActive1b" class="panel-collapse collapse">
  <div class="panel-body">
 <form class="pull-center" name='mayomia1' action='' method='post'>
 <input type='hidden' name='submitted' value='1' />
 
-<select class="form-control" onchange="mayomia1.action = 'https://miui.mifans.web.id/mmod/3wboot/globeROM_3WayReboot_' + this.options[this.selectedIndex].value +'_7.9.14_enable.zip';">
+<select class="form-control" onchange="mayomia1.action = 'https://miui.mifans.web.id/mmod/3wboot/globeROM_3WayReboot_' + this.options[this.selectedIndex].value +'_7.9.21_enable.zip';">
 <option value='#' selected='selected'>Devices (Codename)</option>
 <option value='aries'>Mi2S (Aries)</option>
 <option value='cancro'>Mi3/4 (Cancro)</option>
@@ -414,13 +414,13 @@ Akan datang..</div>
 </div>
 <div class="panel panel-default">
 <div class="panel-heading">
-<h4 class="panel-title faa-parent animated-hover" data-toggle="collapse" data-target="#collapseActive2b"><strong>MIUI 7.9.7 Beta</strong> <i class="fa fa-download pull-right faa-flash"></i></h4>
+<h4 class="panel-title faa-parent animated-hover" data-toggle="collapse" data-target="#collapseActive2b"><strong>MIUI 7.9.14 Beta</strong> <i class="fa fa-download pull-right faa-flash"></i></h4>
 </div>
 <div id="collapseActive2b" class="panel-collapse collapse">
 <div class="panel-body">
 <form class="pull-center" name='mayomia2' action='' method='post'>
 <input type='hidden' name='submitted' value='1' />
-<select class="form-control" onchange="mayomia2.action = 'https://miui.mifans.web.id/mmod/3wboot/globeROM_3WayReboot_' + this.options[this.selectedIndex].value +'_7.9.7_enable.zip';">
+<select class="form-control" onchange="mayomia2.action = 'https://miui.mifans.web.id/mmod/3wboot/globeROM_3WayReboot_' + this.options[this.selectedIndex].value +'_7.9.14_enable.zip';">
 <option value='#' selected='selected'>Devices (Codename)</option>
 <option value='aries'>Mi2S (Aries)</option>
 <option value='cancro'>Mi3/4 (Cancro)</option>
@@ -464,13 +464,13 @@ Akan datang..</div>
 </div>
 <div class="panel panel-default">
 <div class="panel-heading">
-<h4 class="panel-title faa-parent animated-hover" data-toggle="collapse" data-target="#collapseActive3b"><strong>MIUI 7.6.8 Beta </strong><i class="fa fa-download pull-right faa-float"></i></h4>
+<h4 class="panel-title faa-parent animated-hover" data-toggle="collapse" data-target="#collapseActive3b"><strong>MIUI 7.9.7 Beta </strong><i class="fa fa-download pull-right faa-float"></i></h4>
 </div>
 <div id="collapseActive3b" class="panel-collapse collapse">
 <div class="panel-body">
 <form class="pull-center" name='mayomia3' action='' method='post'>
 <input type='hidden' name='submitted' value='1' />
-<select class="form-control" onchange="mayomia3.action = 'https://miui.mifans.web.id/mmod/3wboot/globeROM_3WayReboot_' + this.options[this.selectedIndex].value +'_7.6.8_enable.zip';">
+<select class="form-control" onchange="mayomia3.action = 'https://miui.mifans.web.id/mmod/3wboot/globeROM_3WayReboot_' + this.options[this.selectedIndex].value +'_7.9.7_enable.zip';">
 <option value='#' selected='selected'>Devices (Codename)</option>
 <option value='aries'>Mi2S (Aries)</option>
 <option value='cancro'>Mi3/4 (Cancro)</option>
@@ -569,9 +569,9 @@ Akan datang..</div>
       <div class="modal-body">
 	  <!-- isinya di sini m -->
 <ul class="nav nav-tabs">
-  <li class="active"><a href="#Mv1" data-toggle="tab" aria-expanded="true">7.9.14</a></li>
-  <li class=""><a href="#Mv2" data-toggle="tab" aria-expanded="false">7.9.7</a></li>
-  <li class="disabled"><a>7.6.8</a></li>
+  <li class="active"><a href="#Mv1" data-toggle="tab" aria-expanded="true">7.9.21</a></li>
+  <li class=""><a href="#Mv2" data-toggle="tab" aria-expanded="false">7.9.14</a></li>
+  <li class="disabled"><a>7.9.7</a></li>
   <li class="dropdown">
     <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
       Stabil <span class="caret"></span>
@@ -591,7 +591,7 @@ Akan datang..</div>
 <h4>Non-Rooted</h4>
     <form class="pull-center" name='miya' action='' method='post'>
 <input type='hidden' name='submitted' value='1' />
-<select class="form-control" onchange="miya.action = 'https://miui.mifans.web.id/mmod/pboot/globeROM_AdvancedBootIMG_' + this.options[this.selectedIndex].value +'_7.9.14_no-root.zip';">
+<select class="form-control" onchange="miya.action = 'https://miui.mifans.web.id/mmod/pboot/globeROM_AdvancedBootIMG_' + this.options[this.selectedIndex].value +'_7.9.21_no-root.zip';">
 <option value='#' selected='selected'>Devices (Codename)</option>
 <option value='aries'>Mi2S (Aries)</option>
 <option value='cancro'>Mi3/4 (Cancro)</option>
@@ -634,7 +634,7 @@ Akan datang..</div>
 <h4>Rooted</h4>
     <form class="pull-center" name='miyaa' action='' method='post'>
 <input type='hidden' name='submitted' value='1' />
-<select class="form-control" onchange="miyaa.action = 'https://miui.mifans.web.id/mmod/pboot/globeROM_AdvancedBootIMG_' + this.options[this.selectedIndex].value +'_7.9.14_rooted.zip';">
+<select class="form-control" onchange="miyaa.action = 'https://miui.mifans.web.id/mmod/pboot/globeROM_AdvancedBootIMG_' + this.options[this.selectedIndex].value +'_7.9.21_rooted.zip';">
 <option value='#' selected='selected'>Devices (Codename)</option>
 <option value='aries'>Mi2S (Aries)</option>
 <option value='cancro'>Mi3/4 (Cancro)</option>
@@ -680,7 +680,7 @@ Akan datang..</div>
 <h4>Non-Rooted</h4>
     <form class="pull-center" name='mayo' action='' method='post'>
 <input type='hidden' name='submitted' value='1' />
-<select class="form-control" onchange="mayo.action = 'https://miui.mifans.web.id/mmod/pboot/globeROM_AdvancedBootIMG_' + this.options[this.selectedIndex].value +'_7.9.7_no-root.zip';">
+<select class="form-control" onchange="mayo.action = 'https://miui.mifans.web.id/mmod/pboot/globeROM_AdvancedBootIMG_' + this.options[this.selectedIndex].value +'_7.9.14_no-root.zip';">
 <option value='#' selected='selected'>Devices (Codename)</option>
 <option value='aries'>Mi2S (Aries)</option>
 <option value='cancro'>Mi3/4 (Cancro)</option>
@@ -723,7 +723,7 @@ Akan datang..</div>
 <h4>Rooted</h4>
     <form class="pull-center" name='mayom' action='' method='post'>
 <input type='hidden' name='submitted' value='1' />
-<select class="form-control" onchange="mayom.action = 'https://miui.mifans.web.id/mmod/pboot/globeROM_AdvancedBootIMG_' + this.options[this.selectedIndex].value +'_7.9.7_rooted.zip';">
+<select class="form-control" onchange="mayom.action = 'https://miui.mifans.web.id/mmod/pboot/globeROM_AdvancedBootIMG_' + this.options[this.selectedIndex].value +'_7.9.14_rooted.zip';">
 <option value='#' selected='selected'>Devices (Codename)</option>
 <option value='aries'>Mi2S (Aries)</option>
 <option value='cancro'>Mi3/4 (Cancro)</option>
