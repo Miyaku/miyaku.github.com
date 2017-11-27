@@ -1,8 +1,8 @@
 <!-- Mulai M -->
 
 <!-- Weekly Released Note 7.11.16 &#124; 7.11.9 &#124; 7.11.2 -->
-<div class="alert alert-dismissable alert-info"><button type="button" class="close" data-dismiss="alert">x</button>
-<h5><b>Notifikasi</b> Tutorial Cara Backup & Install nya kakak bisa baca <a href="/?u=/miui-mod/">di sini</a>. Untuk tau codename devices kakak, kakak bisa cek <a href="https://mifans.web.id/p/3580?ref=SL">di sini</a>.</h5>
+<div class="alert alert-success">
+<h5><b>Baruu..!!</b> Dengan Apk <a href="https://mifans.web.id/p/59324?ref=SL">MIUI Statusbar Pro</a> kakak bisa bereksperimen dengan 7 desain status bar yang berbeda termasuk center clock, tidak butuh xposed dsb. Ingin coba? <a href="https://links.mifans.web.id/Qeb">Unduh di sini</a>.. Jangan lupa baca trid nya <a href="https://mifans.web.id/trid/miui-status-bar-pro.1141/">di sini</a>.</h5>
 </div>
 
 <div class="row">
@@ -12,7 +12,7 @@
 <div class="panel panel-default">
   <div class="panel-heading">Penampakan</div>
   <div class="panel-body">
-     <img src="https://explore.mifans.web.id/gambar/mmod_cclockt.png" clas="mayo"/>
+     <img src="https://explore.mifans.web.id/gambar/mmod_cclockt.png" class="mayo" alt="CenterClock"/>
   </div>
 </div>
 
@@ -185,7 +185,7 @@ Akan datang..</div>
 <div class="panel panel-default">
   <div class="panel-heading">Penampakan</div>
   <div class="panel-body">
-<img src="https://explore.mifans.web.id/gambar/mmod_beauty_cclock.png" class="mayo"/>
+<img src="https://explore.mifans.web.id/gambar/mmod_beauty_cclock.png" class="mayo" alt="BeautyCenterClock"/>
   </div>
 </div>
 
@@ -357,7 +357,7 @@ Akan datang..</div>
 <div class="panel panel-default">
   <div class="panel-heading">Penampakan</div>
   <div class="panel-body">
- <img src="https://explore.mifans.web.id/gambar/3wayreboot.png" clas="mayo"/>
+ <img src="https://explore.mifans.web.id/gambar/3wayreboot.png" class="mayo" alt="3WayReboot"/>
   </div>
 </div>
 
@@ -526,6 +526,10 @@ Akan datang..</div>
 </div>
 
 </div>
+<div class="alert alert-dismissable alert-info"><p><button type="button" class="close" data-dismiss="alert">x</button>
+<h5><b>Notifikasi</b> Tutorial Cara Backup & Install nya kakak bisa baca <a href="/?u=/miui-mod/">di sini</a>. Untuk tau codename devices kakak, kakak bisa cek <a href="https://mifans.web.id/p/3580?ref=SL">di sini</a>.</h5>
+</div>
+
 <hr/>
 <h2>Kernel Tweaks</h2>
 <div class="panel panel-default" >
