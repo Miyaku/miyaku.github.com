@@ -34,9 +34,9 @@
 </div>
 </div>
 <br />
-<i class=post-meta>{{ page.date | date: "%b %-d, %Y" }} {% if page.author %} deploy by {{ page.author }} {% endif %}
+<i class=post-meta>{{ page.date | date: "%b %-d, %Y" }} {% if page.author %} deploy by {{ page.author }}. {% endif %}
 {% assign words = content | number_of_words %}
-{% if words < 360 %}
+{% if words < 360 %} ETR
   1 minute read.
 {% else %}
   {{ words | divided_by:180 }} minute read.
