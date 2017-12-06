@@ -26,19 +26,6 @@
 <div class=resp-tabs-container>
 <div class="tab-1 resp-tab-content" aria-labelledby=tab_item-1 id=tab_item-1>
 <div class=facts>
-  {% assign words = content | number_of_words %}
-{{ words | divided_by:180 }} mins
-{% if words < 360 %}
-  1 min
-{% else %}
-  {{ words | divided_by:180 }} mins
-{% endif %}
-                  {% assign words = content | number_of_words %}
-  {% if words < 360 %}
-    1 min
-  {% else %}
-    {{ words | divided_by:180 }} mins
-  {% endif %}
 <h2 class=floatLeft>{{ page.title }}</h2>
 <div class=clear> </div>
 <div class=post itemscope itemtype=http://schema.org/BlogPosting>
@@ -47,7 +34,18 @@
 </div>
 </div>
 <br />
-<i class=post-meta>{{ page.date | date: "%b %-d, %Y" }} {% if page.author %} deploy by {{ page.author }} {% endif %}</i> {% include bagi.html %}
+<i class=post-meta>{{ page.date | date: "%b %-d, %Y" }} {% if page.author %} deploy by {{ page.author }} {% endif %}
+{% assign words = content | number_of_words %}
+{{ words | divided_by:180 }} minute read.
+{% if words < 360 %}
+  1 minute read.
+{% else %}
+  {{ words | divided_by:180 }} minute read.
+{% endif %}
+
+</i> 
+
+{% include bagi.html %}
 <div class=clear> </div>
 {% include komentar.html %}
 </div>
