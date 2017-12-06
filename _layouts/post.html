@@ -36,7 +36,6 @@
 <br />
 <i class=post-meta>{{ page.date | date: "%b %-d, %Y" }} {% if page.author %} deploy by {{ page.author }} {% endif %}
 {% assign words = content | number_of_words %}
-{{ words | divided_by:180 }} minute read.
 {% if words < 360 %}
   1 minute read.
 {% else %}
