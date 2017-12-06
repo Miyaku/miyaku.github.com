@@ -26,6 +26,19 @@
 <div class=resp-tabs-container>
 <div class="tab-1 resp-tab-content" aria-labelledby=tab_item-1 id=tab_item-1>
 <div class=facts>
+  {% assign words = content | number_of_words %}
+{{ words | divided_by:180 }} mins
+{% if words < 360 %}
+  1 min
+{% else %}
+  {{ words | divided_by:180 }} mins
+{% endif %}
+                  {% assign words = content | number_of_words %}
+  {% if words < 360 %}
+    1 min
+  {% else %}
+    {{ words | divided_by:180 }} mins
+  {% endif %}
 <h2 class=floatLeft>{{ page.title }}</h2>
 <div class=clear> </div>
 <div class=post itemscope itemtype=http://schema.org/BlogPosting>
