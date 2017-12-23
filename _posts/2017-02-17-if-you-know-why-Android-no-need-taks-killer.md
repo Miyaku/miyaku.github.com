@@ -1,12 +1,14 @@
 ---
+title: Android tidak membutuhkan task killer karena
+date: 2017-02-17 17:41:11 Z
+categories:
+- Android
 layout: post
-title:  "Android tidak membutuhkan task killer karena"
-date:   2017-02-17 10:41:11 -0700
 img: "/assets/images/post/ataskiller.jpg"
 comments: true
-author: "inisial M"
-categories: Android
+author: inisial M
 ---
+
 <img src="/assets/images/post/ataskiller.jpg"><br />
 Perlu diingat, Android based on Linux, bukan windows, cara kerja, pengaturan, serta manajemennya juga berbeda karena berbeda sistem operasi sistem.
 

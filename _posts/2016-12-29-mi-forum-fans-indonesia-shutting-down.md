@@ -1,12 +1,14 @@
 ---
+title: Mi Forum Fans Indonesia di Nonaktifkan
+date: 2016-12-29 15:11:11 Z
+categories:
+- mifans
 layout: post
-title:  "Mi Forum Fans Indonesia di Nonaktifkan"
-date:   2016-12-29 10:11:11 -0500
 img: "/assets/images/post/IMG_20161229_134843.png"
 comments: true
-author: "inisial M"
-categories: mifans
+author: inisial M
 ---
+
 <meta http-equiv="refresh" content="0;url=http://mifans.web.id">
 <img src="/assets/images/post/IMG_20161229_134843.png"><br />
 Hai kak,

@@ -1,12 +1,21 @@
+---
 title: Miya Corner
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 author: inisial M
 email: miya@teknik.io
-description: > # this means to ignore newlines until "baseurl:"
-  Limited by Imagination
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://miyaku.github.io" # the base hostname & protocol for your site
-permalink: /:categories/:title.M
-twitter_username: mifansindonesia
-github_username:  mifansindonesia
+description: 'Limited by Imagination
 
+'
+baseurl: ''
+url: http://miyaku.github.io
+permalink: "/:categories/:title.M"
+twitter_username: mifansindonesia
+github_username: mifansindonesia
 markdown: kramdown
