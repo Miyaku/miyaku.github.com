@@ -2,9 +2,10 @@
 /*
  MBoostrap 4 *.mifans.web.id
  Focused for @mifansindonesia
- Inspired for Lumen Bootswatch
- Based from Bootsrtap v.3.3.7
- Customize by Miya use bootswathcr.com
+ Inspired by Lumen Bootswatch
+ Based from Bootstrap v.3.3.7
+ Customize by Miya use BootSwatchr.com
+ Normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css
 */
 
 html {
@@ -3126,14 +3127,14 @@ fieldset[disabled] .btn-default.focus {
 .btn-primary:hover {
   color: #ffffff;
   background-color: #106a8c;
-  border-color: #0c516c;
+  border-color: #f75733;
 }
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #ffffff;
   background-color: #106a8c;
-  border-color: #0c516c;
+  border-color: #f75733;
 }
 .btn-primary:active:hover,
 .btn-primary.active:hover,
@@ -3145,8 +3146,8 @@ fieldset[disabled] .btn-default.focus {
 .btn-primary.active.focus,
 .open > .dropdown-toggle.btn-primary.focus {
   color: #ffffff;
-  background-color: #0c516c;
-  border-color: #052531;
+  background-color: #fd6440;
+  border-color: #f75733;
 }
 .btn-primary:active,
 .btn-primary.active,
