@@ -2,7 +2,7 @@
 .M-bagi{width:100%;overflow:hidden}.M-center .M-bagi{display:inline-block;width:auto}
 .M-bagi .M-bagi-item{padding:8px 16px;float:left;width:auto;border:none;outline:none;display:block}
 .M-bagi .M-dropdown-hover,.M-bagi .M-dropdown-click{position:static;float:left}
-.M-bagi .M-tombol{white-space:normal}.M-tombol:hover{hover{filter:grayscale(100%)}
+.M-bagi .M-tombol{white-space:normal}.M-tombol:hover{filter:grayscale(100%)}
 .M-bagi-block .M-bagi-item{width:100%;display:block;padding:8px 16px;text-align:left;border:none;outline:none;white-space:normal;float:none}
 .M-bagi-block.M-center .M-bagi-item{text-align:center}.M-block{display:block;width:100%}
 .M-tombol{border:none;display:inline-block;outline:0;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
