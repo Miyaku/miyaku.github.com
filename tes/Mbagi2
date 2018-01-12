@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="M.css">
+</head>
+<body>
+<div class="M-container">
+<br />
+<div class="M-bagi">
+  <a href="https://www.facebook.com/sharer/sharer.php?u=" class="M-bagi-item M-fb M-tombol M-hover-fb" ><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+  <a href="https://twitter.com/intent/tweet?url=&text=&via=inisi_m" class="M-bagi-item M-twit M-tombol M-hover-twit"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+  <a href="https://plus.google.com/share?url=" class="M-bagi-item M-tombol M-gpl M-hover-gpl"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
+  <a href="https://pinterest.com/pin/create/bookmarklet/?url=&description=" class="M-bagi-item M-tombol M-prs M-hover-prs"><i class="fa fa-pinterest-p fa-2x" aria-hidden="true"></i></a>
+  <a href="https://www.tumblr.com/widgets/share/tool?canonicalUrl=&title=" class="M-bagi-item M-tombol M-tum M-hover-tum"><i class="fa fa-tumblr fa-2x" aria-hidden="true"></i></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=" class="M-bagi-item M-tombol M-in M-hover-in"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+  <a href="https://api.whatsapp.com/send?text=" class="M-bagi-item M-tombol M-wasap M-hover-wasap"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></a>
+  <a href="https://t.me/share/url?url=" class="M-bagi-item M-tombol M-tele M-hover-tele"><i class="fa fa-telegram fa-2x" aria-hidden="true"></i></a>
+  <a href="javascript:window.print()" class="M-bagi-item M-tombol M-printaja M-hover-printaja"><i class="fa fa-print fa-2x" aria-hidden="true"></i></a>
+</div> 
+</div>
+</body>
+</html>
