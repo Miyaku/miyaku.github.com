@@ -6766,3 +6766,12 @@ button.close {
     color: #fff;
   }
 }
+/* auto hide and show on hover by M */
+.hidden-auto,#hidden-auto {
+	opacity:0.0;
+	filter:alpha(Opacity=0)
+}
+.hidden-auto:hover, #hidden-auto:hover {
+	opacity:1.0;
+	filter:alpha(Opacity=100, FinishedOpacity=100)
+}
