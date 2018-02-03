@@ -1,0 +1,80 @@
+@import url("bs-hidden.css");
+
+/*
+ Mbagi V.1.8 beta sample 4 *.mifans.web.id
+ Focused for @mifansindonesia
+ Based from Font Awesome
+ Customize by Miya use N++
+ MIT License | miyaku.github.io/tes/Mbagi
+*/
+
+.fa-M {
+	font-size:2.1em
+}
+@media (max-width: 800px) {
+	.fa-M {
+		font-size:1.33333333em;
+		line-height:.75em;
+		vertical-align:-15%
+	}
+.M-fb,.M-twit,.M-tele,.M-gpl,.M-prs,.M-in,.M-wasap,.M-printaja,.M-twit-grey,.M-tum {
+border-right:2px solid #fff!important
+}
+}
+.M-bagi {
+	width:100%;
+	overflow:hidden
+}
+.M-bagi .M-bagi-item {
+	padding:8px 16px;
+	float:left;
+	width:auto;
+	border:none;
+	outline:none;
+	display:block
+}
+
+.M-bagi .M-tombol {
+	white-space:normal
+}
+.M-fb,.M-twit,.M-tele,.M-gpl,.M-prs,.M-in,.M-wasap,.M-printaja,.M-twit-grey,.M-tum {color:#fff!important;
+	background-color:#f75733!important;
+	border-right:4px solid #fff!important
+}
+
+.M-hover-fb:hover {
+	color:#fff!important;
+	background-color:#3b5998!important
+}
+.M-hover-twit:hover {
+	color:#fff!important;
+	background-color:#55acee!important
+}
+.M-hover-tele:hover {
+	color:#fff!important;
+	background-color:#2196F3!important
+}
+.M-hover-gpl:hover {
+	color:#fff!important;
+	background-color:#de483a!important
+}
+.M-hover-prs:hover {
+	color:#fff!important;
+	background-color:#b6121b!important
+}
+.M-hover-in:hover {
+	color:#fff!important;
+	background-color:#009688!important
+}
+.M-hover-wasap:hover {
+	color:#fff!important;
+	background-color:#56c964!important
+}
+.M-hover-printaja:hover {
+	color:#fff!important;
+	background-color:#222222!important
+}
+.M-hover-twit-grey:hover,.M-hover-tum:hover {
+	color:#fff!important;
+	background-color:#497693!important
+}
