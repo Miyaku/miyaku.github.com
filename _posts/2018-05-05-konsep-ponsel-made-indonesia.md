@@ -8,6 +8,7 @@ layout: post
 img: https://miyaku.github.io/assets/images/post/anu.png
 author: Mayomi
 ---
+
 Mengawali tulisan iseng ini saya akan berandai-andai, saya ingin menciptakan sebuah smarphone android 
 Konsep yang saya bawa adalah, indonesia inside, dan yang dibutuhkan pengguna. So
 Seperti apa ponsel yang ingin saya rakit? Ponsel ini sama saja seperti ponsel smarphone yang sudah ada
