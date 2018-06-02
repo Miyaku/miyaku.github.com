@@ -1,8 +1,26 @@
+<<<<<<< HEAD
 title: "ℳ"
 description: > # this means to ignore newlines until "baseurl:"
   Limited by Imagination
 baseurl: ""
 url: "https://miyaku.github.io/"
+=======
+---
+title: ℳ
+timezone: Asia/Jakarta
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+description: 'Limited by Imagination
+
+'
+baseurl: 
+url: https://miyaku.github.io/
+>>>>>>> 58c4bed36432be2272ffb73996915cbea8701378
 permalink: "/:categories/:title.M"
 repository: miyaku/miyaku.github.com
 paginate: 5
