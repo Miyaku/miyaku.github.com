@@ -1,7 +1,8 @@
 <meta property="fb:admins" content="Inisial M"/>
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="{{ site.title }}"/>
-<meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/assetsdsg/hijab.png"/>
+<meta name="twitter:img:alt" {% if page.img %} {% for img in page.img %} content="{{ page.img }}" {% endfor %}{% else %} content="{{ site.img }}"> {% endif %}
+{% if page.img %} {% for img in page.img %} <meta property="og:image" content="{{ page.img }}"> {% endfor %}{% else %} <meta property="og:image" content="{{ site.img }}"> {% endif %}
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 <link rel=apple-touch-icon sizes=57x57 href={{ site.url }}{{ site.baseurl }}/assetsimgs/apple-icon-57x57.png>
@@ -22,4 +23,5 @@
 <meta name=msapplication-TileImage content={{ site.url }}{{ site.baseurl }}/assetsdsg/hijab.png>
 <meta name=theme-color content=#248eba>
 <script type=text/javascript src={{ site.url }}{{ site.baseurl }}/assetsjes/frh.js></script>
+<script type=text/javascript src=/assets/jes/protect.js></script>
 <script type=application/x-javascript>addEventListener("load",function(){setTimeout(hideURLbar,0)},false);function hideURLbar(){window.scrollTo(0,1)};</script>

@@ -3,6 +3,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Limited by Imagination
 baseurl: ""
 url: "https://miyaku.github.io/"
+img: "https://miyaku.github.io/assets/dsg/hijab.png"
 permalink: "/:categories/:title.M"
 repository: miyaku/miyaku.github.io
 paginate: 5
