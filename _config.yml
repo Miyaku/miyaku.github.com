@@ -1,26 +1,34 @@
-title: "ℳ"
-description: > # this means to ignore newlines until "baseurl:"
-  Limited by Imagination
-baseurl: ""
-url: "https://miyaku.github.io/"
+---
+title: ℳ
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+description: 'Limited by Imagination
+
+'
+baseurl: ''
+url: https://miyaku.github.io/
 permalink: "/:categories/:title.M"
 repository: miyaku/miyaku.github.com
 paginate: 5
-github_profile: "https://github.com/Miyaku"
-user: "ℳιуα"
-user_email: "miyaku@yandex.com"
-#google_tracking_id: "UA-"
-#google_site_verification: "UA-"
-disqus_shortname: "miyaku"
+github_profile: https://github.com/Miyaku
+user: ℳιуα
+user_email: miyaku@yandex.com
+disqus_shortname: miyaku
 markdown: kramdown
 gems:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-sitemap
+- jekyll-feed
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-sitemap
 exclude:
-  - Gemfile
-  - Gemfile.lock
+- Gemfile
+- Gemfile.lock
 sass:
   style: compressed
 future: true
