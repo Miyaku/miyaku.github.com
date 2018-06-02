@@ -2,9 +2,9 @@ title: "ℳ"
 description: > # this means to ignore newlines until "baseurl:"
   Limited by Imagination
 baseurl: ""
-url: "https://sabyan.github.io/"
+url: "https://miyaku.github.io/"
 permalink: "/:categories/:title.M"
-repository: Sabyan/sabyan
+repository: miyaku/miyaku.github.com
 paginate: 5
 github_profile: "https://github.com/Miyaku"
 user: "ℳιуα"
