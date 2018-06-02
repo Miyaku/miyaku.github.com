@@ -1,6 +1,6 @@
 ---
 title: ℳ
-timezone: UTC
+timezone: Asia/Jakarta
 collections:
   posts:
     title: Posts
@@ -11,7 +11,7 @@ collections:
 description: 'Limited by Imagination
 
 '
-baseurl: ''
+baseurl: 
 url: https://miyaku.github.io/
 permalink: "/:categories/:title.M"
 repository: miyaku/miyaku.github.com
