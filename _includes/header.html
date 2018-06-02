@@ -1,27 +1,53 @@
-<header class="site-header">
-
-  <div class="wrapper">
-
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <svg viewBox="0 0 18 15">
-          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-      </a>
-
-      <div class="trigger">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          {% endif %}
-        {% endfor %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <link rel="shortcut icon" type="image/x-icon" href="//miyaku.github.io/favicon.ico">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/global.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/material-icon.css">
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed" rel="stylesheet"> 
+    {% for css in layout.css %}{% if css contains "//" %}<link rel="stylesheet" href="{{css}}">{% else %}<link rel="stylesheet" href="{{site.baseurl}}/assets/css/{{css}}">{% endif %} {% endfor %}
+    {% for css in page.css %}{% if css contains "//" %}<link rel="stylesheet" href="{{css}}">{% else %}<link rel="stylesheet" href="{{site.baseurl}}/assets/css/{{css}}">{% endif %}{% endfor %}
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/syntax.css">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="{{site.baseurl}}/feed.xml">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="{{site.baseurl}}/sitemap.xml">
+    {% seo title=false %}
+  </head>
+  <body>
+    <header>
+      <nav class="top-nav blue">
+        <div class="nav-wrapper">
+          <div class="container">
+            <a class="page-title" href="{{site.baseurl}}/">{{site.title}}</a>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <a href="#" data-activates="slide-out" class="button-collapse top-nav full hide-on-large-only">
+          <i class="material-icons">menu</i>
+        </a>
       </div>
-    </nav>
-
-  </div>
-
-</header>
+      <ul id="slide-out" class="side-nav fixed">
+        <li>
+          <div class="userView">
+            <div class="background"></div>
+            <a href="{{site.github_profile}}" target="_blank"><img class="circle z-depth-2" src="https://miyaku.github.io/assets/imgs/favicon-96x96.png"></a>
+            <span class="white-text name">{{site.user}}</span>
+            <span class="white-text email">{{site.user_email}}</span>
+          </div>
+        </li>
+        <li><a class="waves-effect" href="{{site.baseurl}}/"><i class="material-icons md-24 ">home</i>Home</a></li>
+        <li><a class="waves-effect" href="{{site.baseurl}}/projects"><i class="material-icons md-24">next_week</i>Projects</a></li>
+        <li><a class="waves-effect" href="{{site.baseurl}}/categories"><i class="material-icons md-24">folder</i>Categories</a></li>
+        <li><a class="waves-effect" href="{{site.baseurl}}/tags"><i class="material-icons md-24">label</i>Tags</a></li>
+        <li><a class="waves-effect" href="{{site.baseurl}}/feed.xml" target="_blank"><i class="material-icons md-24">rss_feed</i>RSS</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="waves-effect" href="{{site.baseurl}}/about"><i class="material-icons md-24">fingerprint</i>About</a></li>
+       <!-- <li><a class="waves-effect" href="{{site.baseurl}}/contact"><i class="material-icons md-24">email</i>Contact</a></li>-->
+      </ul>
+    </header>
+    <main>

@@ -4,6 +4,11 @@ date: 2018-05-05 11:41:12 Z
 categories:
 - smartphone
 - indonesia
+tags:
+- android
+- smarphone
+- anu
+- imajinasi
 layout: post
 img: https://miyaku.github.io/assets/images/post/anu.png
 author: Mayomi
@@ -14,7 +19,9 @@ Konsep yang saya bawa adalah, indonesia inside, dan yang dibutuhkan pengguna. So
 Seperti apa ponsel yang ingin saya rakit? Ponsel ini sama saja seperti ponsel smarphone yang sudah ada
 Menggunakan CPU & GPU dan OS Android yang sedang populer saat ini, hanya saya akan kostumisasi agar tepat ke konsumen dari gender dan age berapapun
 Ponsel yang akan saya rakit ini menggunakan spesifikasi yang costumized & belum pernah ada di jagat raya ini
+
 <a href="https://miyaku.github.io/assets/dsg/anu.pdf"><img src="https://miyaku.github.io/assets/images/post/anu.png"></a>
+
 Untuk CPU & GPU saya akan tentukan, yaitu Flagship Qualcomm Snapdragon kasta 8xx dan Andreno x3x.
 Untuk spesifikasi internal saya akan menggunakan mulai dari 2GB ram dan 8GB Internal, 3/16GB, 4/64GB, 4/128GB.
 Untuk kamera dan External memory saya menggunakan include 2MP & 32GB, nah khusus untuk kamera belakang saya berencana untuk memberikan PnP seperti memory card

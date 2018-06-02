@@ -1,3 +1,0 @@
-git add *
-git commit -m "deploy by M"
-git push --all

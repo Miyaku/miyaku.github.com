@@ -16,6 +16,7 @@ Puisi bc.sh
 cd /usr/local/mariadb/var && git add miyui && git commit -a -m "`date`" && git push --all
 cd /home/root/mifans.web.id && git add * && git add .htac* && git commit -a -m "`date`" && git push --all
 {% endhighlight %}
+
 Execute with cronjob
 {% highlight sh %}
 crontab -e

@@ -5,7 +5,7 @@ categories:
 - jekyll
 - update
 layout: post
-img: "/assets/dsg/My.png"
+img: "https://miyaku.github.io/assets/dsg/My.png"
 author: M
 ---
 

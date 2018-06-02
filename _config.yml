@@ -1,21 +1,26 @@
----
-title: Miya Corner
-timezone: UTC
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-author: inisial M
-email: miya@teknik.io
-description: 'Limited by Imagination
-
-'
-baseurl: ''
-url: http://miyaku.github.io
+title: "ℳ"
+description: > # this means to ignore newlines until "baseurl:"
+  Limited by Imagination
+baseurl: ""
+url: "https://sabyan.github.io/"
 permalink: "/:categories/:title.M"
-twitter_username: mifansindonesia
-github_username: mifansindonesia
+repository: Sabyan/sabyan
+paginate: 5
+github_profile: "https://github.com/Miyaku"
+user: "ℳιуα"
+user_email: "miyaku@yandex.com"
+#google_tracking_id: "UA-"
+#google_site_verification: "UA-"
+disqus_shortname: "miyaku"
 markdown: kramdown
+gems:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
+sass:
+  style: compressed
+future: true

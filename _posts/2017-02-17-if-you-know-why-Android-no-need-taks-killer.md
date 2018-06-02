@@ -3,13 +3,15 @@ title: Android tidak membutuhkan task killer karena
 date: 2017-02-17 17:41:11 Z
 categories:
 - Android
+tags:
+- Linux
 layout: post
-img: "/assets/images/post/ataskiller.jpg"
+img: "https://miyaku.github.io/assets/images/post/ataskiller.jpg"
 comments: true
 author: inisial M
 ---
 
-<img src="/assets/images/post/ataskiller.jpg"><br />
+
 Perlu diingat, Android based on <b>Linux,</b> <u>bukan</u> windows, cara kerja, pengaturan, serta manajemennya juga berbeda karena berbeda sistem operasi sistem.<br />
 <br />
 Hal yang perlu diingat adalah:<br />
@@ -18,7 +20,8 @@ Hal yang perlu diingat adalah:<br />
 <li>&nbsp;Android mengganggap RAM itu adalah Sumber daya (Resource) yang harus digunakan.</li>
 <li>&nbsp;Android memiliki AutoKiller Saat Low memory atau LMK.</li>
 </ol>
-<br />
+
+
 <b>Konsep pemakaian memori Linux adalah semua tentang efisiensi.</b><br />
 RAM adalah sumber daya yang harus digunakan 100% jika memungkinkan, sepanjang waktu (jika memungkinkan).<br />
 <br />
