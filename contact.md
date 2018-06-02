@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: Contact ℳ 
 layout: page
 css:
 - contact.css

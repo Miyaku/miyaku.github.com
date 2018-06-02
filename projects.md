@@ -1,5 +1,5 @@
 ---
-title: GitHub Projects
+title: ℳ  Projects
 layout: page
 css:
 - projects.css
