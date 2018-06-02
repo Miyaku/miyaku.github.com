@@ -1,8 +1,10 @@
 ---
+title: Contact
 layout: page
-title: "Contact"
-css: ["contact.css"]
+css:
+- contact.css
 ---
+
 <div class="col s12">
   <div class="icontain">
    N/A
