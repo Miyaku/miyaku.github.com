@@ -26,11 +26,11 @@ js:
   </div>
 </div>
         <span> 
-		<i class="material-icons tooltipped md-18 em one" data-position="left" data-delay="30" data-tooltip="Categories">folder_open</i>
+		<i class="material-icons tooltipped" data-position="left" data-delay="30" data-tooltip="Categories">folder_open</i>
           {% for cat in page.categories %}
           {% capture test %}{{cat | slice: 0}}{% endcapture %}
           {% capture testup %}{{cat | slice: 0 | upcase}}{% endcapture %}
-          <a href="{{site.baseurl}}/categories#{{cat | slugify}}{% if test == testup %}{% endif %}" target="_blank">{{cat}}</a>
+          <a href="{{site.baseurl}}/categories#{{cat | slugify}}{% if test == testup %}{% endif %}" target="_blank"><div class="chip">{{cat}}</div></a>
           {% endfor %}
         </span>
         <span>
