@@ -1,27 +1,30 @@
-<meta property="fb:admins" content="Inisial M"/>
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="{{ site.title }}"/>
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@{{ site. twitter_username }}" />
+<meta name="twitter:creator" content="@{{ site. twitter_username }}" />
+<meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}" />
+<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 <meta name="twitter:img:alt" {% if page.img %} {% for img in page.img %} content="{{ page.img }}" {% endfor %}{% else %} content="{{ site.img }}"> {% endif %}
-{% if page.img %} {% for img in page.img %} <meta property="og:image" content="{{ page.img }}"> {% endfor %}{% else %} <meta property="og:image" content="{{ site.img }}"> {% endif %}
+ {% if page.img %} {% for img in page.img %} <meta property="og:image" content="{{ page.img }}"> {% endfor %}{% else %} <meta property="og:image" content="{{ site.img }}"> {% endif %}
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-<link rel=apple-touch-icon sizes=57x57 href={{ site.url }}{{ site.baseurl }}/assetsimgs/apple-icon-57x57.png>
-<link rel=apple-touch-icon sizes=60x60 href={{ site.url }}{{ site.baseurl }}/assetsimgs/apple-icon-60x60.png>
-<link rel=apple-touch-icon sizes=72x72 href={{ site.url }}{{ site.baseurl }}/assetsimgs/apple-icon-72x72.png>
-<link rel=apple-touch-icon sizes=76x76 href={{ site.url }}{{ site.baseurl }}/assetsimgs/apple-icon-76x76.png>
-<link rel=apple-touch-icon sizes=114x114 href={{ site.url }}{{ site.baseurl }}/assetsimgs/apple-icon-114x114.png>
-<link rel=apple-touch-icon sizes=120x120 href={{ site.url }}{{ site.baseurl }}/assetsimgs/apple-icon-120x120.png>
-<link rel=apple-touch-icon sizes=144x144 href={{ site.url }}{{ site.baseurl }}/assetsimgs/apple-icon-144x144.png>
-<link rel=apple-touch-icon sizes=152x152 href={{ site.url }}{{ site.baseurl }}/assetsimgs/apple-icon-152x152.png>
-<link rel=apple-touch-icon sizes=180x180 href={{ site.url }}{{ site.baseurl }}/assetsimgs/apple-icon-180x180.png>
-<link rel=icon type=image/png sizes=192x192 href={{ site.url }}{{ site.baseurl }}/assetsimgs/android-icon-192x192.png>
-<link rel=icon type=image/png sizes=32x32 href={{ site.url }}{{ site.baseurl }}/assetsimgs/favicon-32x32.png>
-<link rel=icon type=image/png sizes=96x96 href={{ site.url }}{{ site.baseurl }}/assetsimgs/favicon-96x96.png>
-<link rel=icon type=image/png sizes=16x16 href={{ site.url }}{{ site.baseurl }}/assetsimgs/favicon-16x16.png>
-<link rel=manifest href={{ site.url }}{{ site.baseurl }}/assetsimgs/manifest.json>
+<link rel=apple-touch-icon sizes=57x57 href={{ site.url }}{{ site.baseurl }}assets/imgs/apple-icon-57x57.png>
+<link rel=apple-touch-icon sizes=60x60 href={{ site.url }}{{ site.baseurl }}assets/imgs/apple-icon-60x60.png>
+<link rel=apple-touch-icon sizes=72x72 href={{ site.url }}{{ site.baseurl }}assets/imgs/apple-icon-72x72.png>
+<link rel=apple-touch-icon sizes=76x76 href={{ site.url }}{{ site.baseurl }}assets/imgs/apple-icon-76x76.png>
+<link rel=apple-touch-icon sizes=114x114 href={{ site.url }}{{ site.baseurl }}assets/imgs/apple-icon-114x114.png>
+<link rel=apple-touch-icon sizes=120x120 href={{ site.url }}{{ site.baseurl }}assets/imgs/apple-icon-120x120.png>
+<link rel=apple-touch-icon sizes=144x144 href={{ site.url }}{{ site.baseurl }}assets/imgs/apple-icon-144x144.png>
+<link rel=apple-touch-icon sizes=152x152 href={{ site.url }}{{ site.baseurl }}assets/imgs/apple-icon-152x152.png>
+<link rel=apple-touch-icon sizes=180x180 href={{ site.url }}{{ site.baseurl }}assets/imgs/apple-icon-180x180.png>
+<link rel=icon type=image/png sizes=192x192 href={{ site.url }}{{ site.baseurl }}assets/imgs/android-icon-192x192.png>
+<link rel=icon type=image/png sizes=32x32 href={{ site.url }}{{ site.baseurl }}assets/imgs/favicon-32x32.png>
+<link rel=icon type=image/png sizes=96x96 href={{ site.url }}{{ site.baseurl }}assets/imgs/favicon-96x96.png>
+<link rel=icon type=image/png sizes=16x16 href={{ site.url }}{{ site.baseurl }}assets/imgs/favicon-16x16.png>
+<link rel=manifest href={{ site.url }}{{ site.baseurl }}assets/imgs/manifest.json>
 <meta name=msapplication-TileColor content=#248eba>
-<meta name=msapplication-TileImage content={{ site.url }}{{ site.baseurl }}/assetsdsg/hijab.png>
+<meta name=msapplication-TileImage content={{ site.url }}{{ site.baseurl }}assets/dsg/hijab.png>
 <meta name=theme-color content=#248eba>
-<script type=text/javascript src={{ site.url }}{{ site.baseurl }}/assetsjes/frh.js></script>
-<script type=text/javascript src=/assets/jes/protect.js></script>
+<script type=text/javascript src={{ site.url }}{{ site.baseurl }}assets/jes/frh.js></script>
+<script type=text/javascript src={{ site.url }}{{ site.baseurl }}assets/jes/jquery-1.11.2.min.js></script>
+<script type=text/javascript src={{ site.url }}{{ site.baseurl }}assets/jes/M.js></script>
 <script type=application/x-javascript>addEventListener("load",function(){setTimeout(hideURLbar,0)},false);function hideURLbar(){window.scrollTo(0,1)};</script>
