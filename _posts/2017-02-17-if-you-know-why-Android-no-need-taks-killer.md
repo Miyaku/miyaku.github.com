@@ -6,11 +6,10 @@ categories:
 tags:
 - Linux
 layout: post
-img: "https://miyaku.github.io/assets/images/post/ataskiller.jpg"
+img: https://miyaku.github.io/assets/images/post/ataskiller.jpg
 comments: true
 author: inisial M
 ---
-
 
 Perlu diingat, Android based on <b>Linux,</b> <u>bukan</u> windows, cara kerja, pengaturan, serta manajemennya juga berbeda karena berbeda sistem operasi sistem.<br />
 <br />

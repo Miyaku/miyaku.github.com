@@ -4,9 +4,10 @@ date: 2016-12-21 17:11:12 Z
 categories:
 - ROMs
 layout: post
-img: "https://miyaku.github.io/assets/images/post/cm.jpeg"
+img: https://miyaku.github.io/assets/images/post/cm.jpeg
 author: M
 ---
+
 In a post on the official CyanogenMod blog, we're told that the current state of everything Cyanogen means it's no longer feasible to continue and that the best path forward requires change. Nobody should be surprised after recent events within the Cyanogen Inc. parent company and today's announcement that it has reached the end of the road and will shut down operations.
 
 The puts some hurdles in front of the community-driven CM that can't be jumped while holding on to the legacy name and structure. Servers and infrastructure are going to soon disappear, nobody is at the helm to direct the way forward and the very name Cyanogen itself is available to the right bidder. CyanogenMod depended on Cyanogen, Inc. 

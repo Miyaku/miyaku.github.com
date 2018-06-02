@@ -4,10 +4,11 @@ date: 2016-12-29 15:11:11 Z
 categories:
 - mifans
 layout: post
-img: "https://miyaku.github.io/assets/images/post/IMG_20161229_134843.png"
+img: https://miyaku.github.io/assets/images/post/IMG_20161229_134843.png
 comments: true
 author: inisial M
 ---
+
 Hai kak,
 Kakak melihat ini karena mungkin kakak mengakses forum mifans (mifans.web.id) ya?
 

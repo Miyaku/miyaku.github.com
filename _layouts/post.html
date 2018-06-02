@@ -1,8 +1,11 @@
 ---
 layout: default
-css: ["post.css"]
-js: ["post.js"]
+css:
+- post.css
+js:
+- post.js
 ---
+
 <div id="post-info">
   <h3>{{page.title}}</h3>
  <span class="grey-text text-darken-1 post-info">{{ page.date | date: " %-d %b %Y" }} {% if page.author %} deploy by {{ page.author }}, {% endif %}
