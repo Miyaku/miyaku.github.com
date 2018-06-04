@@ -4,6 +4,8 @@ date: 2015-05-16 07:11:11 Z
 categories:
 - jekyll
 - update
+tags:
+- test
 layout: post
 img: https://miyaku.github.io/assets/dsg/My.png
 author: M

@@ -2,11 +2,14 @@
 title: Puisi untuk backup database dan semua file forum
 date: 2016-04-03 17:11:12 Z
 categories:
+- linux
+tags:
 - sh
 - crontab
 layout: post
 img: https://image.freepik.com/free-icon/computer-terminal_318-9693.jpg
 author: M
+comments: true
 ---
 
 Hanya untuk catatan semata &#128515; &#x1f603;

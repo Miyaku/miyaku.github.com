@@ -3,6 +3,8 @@ title: Mi Forum Fans Indonesia di Nonaktifkan
 date: 2016-12-29 15:11:11 Z
 categories:
 - mifans
+tags:
+- forum
 layout: post
 img: https://miyaku.github.io/assets/images/post/IMG_20161229_134843.png
 comments: true

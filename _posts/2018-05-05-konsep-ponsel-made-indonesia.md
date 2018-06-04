@@ -12,6 +12,7 @@ tags:
 layout: post
 img: https://miyaku.github.io/assets/images/post/anu.png
 author: Mayomi
+comments: true
 ---
 
 Mengawali tulisan iseng ini saya akan berandai-andai, saya ingin menciptakan sebuah smarphone android 

@@ -3,9 +3,12 @@ title: 'Goodbye CyanogenMod, welcome Lineage Android '
 date: 2016-12-21 17:11:12 Z
 categories:
 - ROMs
+tags: 
+- android
 layout: post
 img: https://miyaku.github.io/assets/images/post/cm.jpeg
 author: M
+comments: true
 ---
 
 In a post on the official CyanogenMod blog, we're told that the current state of everything Cyanogen means it's no longer feasible to continue and that the best path forward requires change. Nobody should be surprised after recent events within the Cyanogen Inc. parent company and today's announcement that it has reached the end of the road and will shut down operations.
