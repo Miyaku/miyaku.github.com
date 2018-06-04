@@ -26,7 +26,7 @@ js:
   </div>
 </div>
         <span> 
-		<div class="chip"><i class="material-icons tooltipped" data-position="left" data-delay="30" data-tooltip="Categories">folder_open</i></div>
+		<div class="chip"><i class="icon-folder_open tooltipped" data-position="left" data-delay="30" data-tooltip="Categories"></i></div>
           {% for cat in page.categories %}
           {% capture test %}{{cat | slice: 0}}{% endcapture %}
           {% capture testup %}{{cat | slice: 0 | upcase}}{% endcapture %}
@@ -34,7 +34,7 @@ js:
           {% endfor %}
         </span>
         <span>
-         <div class="chip"> <i class="material-icons tooltipped" data-position="left" data-delay="30" data-tooltip="Tags">label</i></div>
+         <div class="chip"> <i class="icon-label_outline tooltipped" data-position="left" data-delay="30" data-tooltip="Tags"></i></div>
           {% for tag in page.tags %}
           {% capture test %}{{tag | slice: 0}}{% endcapture %}
           {% capture testup %}{{tag | slice: 0 | upcase}}{% endcapture %}
