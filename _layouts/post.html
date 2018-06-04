@@ -8,14 +8,13 @@ js:
 
 <div id="post-info">
   <h3>{{page.title}}</h3>
- <span class="grey-text text-darken-1 post-info"><i class="fa fa-calendar-check-o"></i> {{ page.date | date: " %-d %b %Y" }} {% if page.author %} <i class="fa fa-user-o"></i> deploy by {{ page.author }}, {% endif %}
-<i class="fa fa-clock-o"></i> {% assign words = content | number_of_words %}
+ <span class="grey-text text-darken-1 post-info">{{ page.date | date: " %-d %b %Y" }} {% if page.author %}deploy by {{ page.author }}, {% endif %} {% assign words = content | number_of_words %}
 {% if words < 360 %}
   1 minute read.
 {% else %}
   {{ words | divided_by:180 }} minute read.
 {% endif %}
-<a href="#disqus_thread"><i class="fa fa-comments-o"></i> Comments</a>
+<a href="#disqus_thread">Comments</a>
 </span> 
 
 </div>
