@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/global.css">
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/icomoon.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/font-awesome.css">
 	<link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed" rel="stylesheet"> 
     {% for css in layout.css %}{% if css contains "//" %}<link rel="stylesheet" href="{{css}}">{% else %}<link rel="stylesheet" href="{{site.baseurl}}/assets/css/{{css}}">{% endif %} {% endfor %}
     {% for css in page.css %}{% if css contains "//" %}<link rel="stylesheet" href="{{css}}">{% else %}<link rel="stylesheet" href="{{site.baseurl}}/assets/css/{{css}}">{% endif %}{% endfor %}
@@ -41,7 +41,7 @@
             <span class="white-text email">{{site.user_email}}</span>
           </div>
         </li>
-        <li><a class="waves-effect" href="{{site.baseurl}}/"><i class="icon-home imd-24"></i>Home</a></li>
+        <li><a class="waves-effect" href="{{site.baseurl}}/"><i class="fa fa-home fa-lg"></i>Home</a></li>
         <li><a class="waves-effect" href="{{site.baseurl}}/projects"><i class="icon-extension imd-24"></i>Projects</a></li>
         <li><a class="waves-effect" href="{{site.baseurl}}/categories"><i class="icon-folder imd-24"></i>Categories</a></li>
         <li><a class="waves-effect" href="{{site.baseurl}}/tags"><i class="icon-label imd-24"></i>Tags</a></li>
