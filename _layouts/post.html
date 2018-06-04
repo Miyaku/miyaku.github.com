@@ -8,15 +8,13 @@ js:
 
 <div id="post-info">
   <h3>{{page.title}}</h3>
- <div class="grey-text text-darken-1 post-info">{{ page.date | date: " %-d %b %Y" }} {% if page.author %}deploy by {{ page.author }}, {% endif %} {% assign words = content | number_of_words %}
+ <span class="grey-text text-darken-1 post-info">{{ page.date | date: " %-d %b %Y" }} {% if page.author %}deploy by {{ page.author }}, {% endif %} {% assign words = content | number_of_words %}
 {% if words < 360 %}
   1 minute read.
 {% else %}
   {{ words | divided_by:180 }} minute read.
 {% endif %}
- <span class="comments-link"><a href="#disqus_thread">Comment</a></span>
-</div>
-
+<a class="comments-link"href="#disqus_thread">Comment</a></span>
 </div>
 <div class="divider"></div>
 <div class="row">
