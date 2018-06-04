@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/global.css">
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/icomoon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed" rel="stylesheet"> 
     {% for css in layout.css %}{% if css contains "//" %}<link rel="stylesheet" href="{{css}}">{% else %}<link rel="stylesheet" href="{{site.baseurl}}/assets/css/{{css}}">{% endif %} {% endfor %}
     {% for css in page.css %}{% if css contains "//" %}<link rel="stylesheet" href="{{css}}">{% else %}<link rel="stylesheet" href="{{site.baseurl}}/assets/css/{{css}}">{% endif %}{% endfor %}
@@ -29,7 +29,7 @@
       </nav>
       <div class="container">
         <a href="#" data-activates="slide-out" class="button-collapse top-nav full hide-on-large-only">
-          &#xe3c7;
+          <i class="fa fa-bars"></i>
         </a>
       </div>
       <ul id="slide-out" class="side-nav fixed">
@@ -41,7 +41,7 @@
             <span class="white-text email">{{site.user_email}}</span>
           </div>
         </li>
-        <li><a class="waves-effect" href="{{site.baseurl}}/"><span class="icon-home imd-24"></span> Home</a></li>
+        <li><a class="waves-effect" href="{{site.baseurl}}/"><i class="fa fa-home"></i></span> Home</a></li>
         <li><a class="waves-effect" href="{{site.baseurl}}/projects"><i class="material-icons md-24">next_week</i>Projects</a></li>
         <li><a class="waves-effect" href="{{site.baseurl}}/categories"><i class="material-icons md-24">folder</i>Categories</a></li>
         <li><a class="waves-effect" href="{{site.baseurl}}/tags"><i class="material-icons md-24">label</i>Tags</a></li>
