@@ -8,8 +8,8 @@ js:
 
 <div id="post-info">
   <h3>{{page.title}}</h3>
- <span class="grey-text text-darken-1 post-info"><span class="icon-insert_invitation"></span> {{ page.date | date: " %-d %b %Y" }} {% if page.author %} <span class="icon-person"></span> deploy by {{ page.author }}, {% endif %}
-<span class="icon-visibility"></span> {% assign words = content | number_of_words %}
+ <span class="grey-text text-darken-1 post-info"><i class="icon-insert_invitation"></i> {{ page.date | date: " %-d %b %Y" }} {% if page.author %} <i class="icon-person"></i> deploy by {{ page.author }}, {% endif %}
+<i class="icon-visibility"></i> {% assign words = content | number_of_words %}
 {% if words < 360 %}
   1 minute read.
 {% else %}
