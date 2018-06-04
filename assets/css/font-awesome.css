@@ -3,6 +3,7 @@
 .fa {  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.fa-11 { font-size: 11px; }
 .fa-17 { font-size: 17px; }
 .fa-18 { font-size: 18px; }
 .fa-21 { font-size: 21px; }
