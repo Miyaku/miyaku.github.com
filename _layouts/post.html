@@ -8,8 +8,8 @@ js:
 
 <div id="post-info">
   <h3>{{page.title}}</h3>
- <span class="grey-text text-darken-1 post-info"><i class="icon-insert_invitation"></i>{{ page.date | date: " %-d %b %Y" }} {% if page.author %} <i class="icon-person"></i>deploy by {{ page.author }}, {% endif %}
-<i class="icon-visibility"></i>{% assign words = content | number_of_words %}
+ <span class="grey-text text-darken-1 post-info"><i class="icon-insert_invitation"></i> {{ page.date | date: " %-d %b %Y" }} {% if page.author %} <i class="icon-person"></i> deploy by {{ page.author }}, {% endif %}
+<i class="icon-visibility"></i> {% assign words = content | number_of_words %}
 {% if words < 360 %}
   1 minute read.
 {% else %}
@@ -26,7 +26,7 @@ js:
   </div>
 </div>
         <span> 
-		<i class="icon-folder_open imd-36 tooltipped" data-position="left" data-delay="30" data-tooltip="Categories"></i>
+		<div class="chip"><i class="icon-folder_open imd-24 tooltipped" data-position="left" data-delay="30" data-tooltip="Categories"></i></div>
           {% for cat in page.categories %}
           {% capture test %}{{cat | slice: 0}}{% endcapture %}
           {% capture testup %}{{cat | slice: 0 | upcase}}{% endcapture %}
@@ -34,7 +34,7 @@ js:
           {% endfor %}
         </span>
         <span>
-         <i class="icon-label_outline imd-36 tooltipped" data-position="left" data-delay="30" data-tooltip="Tags"></i>
+         <div class="chip"> <i class="icon-label_outline imd-24 tooltipped" data-position="left" data-delay="30" data-tooltip="Tags"></i></div>
           {% for tag in page.tags %}
           {% capture test %}{{tag | slice: 0}}{% endcapture %}
           {% capture testup %}{{tag | slice: 0 | upcase}}{% endcapture %}
