@@ -1,1 +1,9 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+
+.fa {  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fa-18 { font-size: 18px; }
+.fa-24 { font-size: 24px; }
+.fa-36 { font-size: 36px; }
+.fa-48 { font-size: 48px; }
