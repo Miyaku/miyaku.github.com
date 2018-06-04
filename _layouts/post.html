@@ -8,14 +8,14 @@ js:
 
 <div id="post-info">
   <h3>{{page.title}}</h3>
- <span class="grey-text text-darken-1 post-info">{{ page.date | date: " %-d %b %Y" }} {% if page.author %}deploy by {{ page.author }}, {% endif %} {% assign words = content | number_of_words %}
+ <div class="grey-text text-darken-1 post-info">{{ page.date | date: " %-d %b %Y" }} {% if page.author %}deploy by {{ page.author }}, {% endif %} {% assign words = content | number_of_words %}
 {% if words < 360 %}
   1 minute read.
 {% else %}
   {{ words | divided_by:180 }} minute read.
 {% endif %}
-</span> <span class="comments-link"><i class="fa fa-comment-o faa-shake animated"></i><a href="#disqus_thread">Komentar</a></span>
-
+ <span class="comments-link"><a href="#disqus_thread">Comment</a></span>
+</div>
 
 </div>
 <div class="divider"></div>
