@@ -9,13 +9,13 @@ js:
 <div id="post-info">
   <h3>{{page.title}}</h3>
  <span class="grey-text text-darken-1 post-info"><i class="icon-insert_invitation"></i> {{ page.date | date: " %-d %b %Y" }} {% if page.author %} <i class="icon-person"></i> deploy by {{ page.author }}, {% endif %}
-<i class="icon-visibility"></i> {% assign words = content | number_of_words %}
+<i class="icon-schedule"></i> {% assign words = content | number_of_words %}
 {% if words < 360 %}
   1 minute read.
 {% else %}
   {{ words | divided_by:180 }} minute read.
 {% endif %}
-<a href="#disqus_thread"> Comments</a>
+<a href="#disqus_thread"><i class="icon-bubble_chart"></i> Comments</a>
 </span> 
 
 </div>
