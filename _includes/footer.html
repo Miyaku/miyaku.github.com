@@ -9,12 +9,11 @@
       </div>
       <div class="footer-copyright">
         <div class="container">
-          &#xA9; {{"now" | date: "%Y"}} {{site.user}} All rights reserved. CSS by Materialize. Original Style MatJek by Shawn Teoh.
+          &#xA9; {{"now" | date: "%Y"}} {{site.user}} All rights reserved. CSS by Materialize.<span class="hidden-xs"> Original Style MatJek by Shawn Teoh.</span>
         </div>
       </div>
     </footer>
     <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
-	 <script src="{{site.baseurl}}/assets/js/liga.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     {% for js in layout.js %}
     {% if js contains "//" %}
