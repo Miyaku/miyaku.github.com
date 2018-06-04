@@ -10,18 +10,18 @@
 }
 
 /* Rules for sizing the icon. */
-.icon.md-18 { font-size: 18px; }
-.icon.md-24 { font-size: 24px; }
-.icon.md-36 { font-size: 36px; }
-.icon.md-48 { font-size: 48px; }
+.imd-18 { font-size: 18px; }
+.imd-24 { font-size: 24px; }
+.imd-36 { font-size: 36px; }
+.imd-48 { font-size: 48px; }
 
 /* Rules for using icons as black on a light background. */
-.icon.md-dark { color: rgba(0, 0, 0, 0.54); }
-.icon.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+.imd-dark { color: rgba(0, 0, 0, 0.54); }
+.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
 
 /* Rules for using icons as white on a dark background. */
-.icon.md-light { color: rgba(255, 255, 255, 1); }
-.icon.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+.imd-light { color: rgba(255, 255, 255, 1); }
+.imd-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
 
 
 [class^="icon-"], [class*=" icon-"] {
