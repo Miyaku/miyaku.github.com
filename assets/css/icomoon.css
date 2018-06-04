@@ -9,6 +9,21 @@
   font-style: normal;
 }
 
+/* Rules for sizing the icon. */
+.icon.md-18 { font-size: 18px; }
+.icon.md-24 { font-size: 24px; }
+.icon.md-36 { font-size: 36px; }
+.icon.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.icon.md-dark { color: rgba(0, 0, 0, 0.54); }
+.icon.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.icon.md-light { color: rgba(255, 255, 255, 1); }
+.icon.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
@@ -51,6 +66,9 @@
 }
 .icon-copyright:before {
   content: "\e90c";
+}
+.icon-dehaze:before {
+  content: "\e3c7";
 }
 .icon-error:before {
   content: "\e000";
@@ -115,3 +133,4 @@
 .icon-sentiment_very_satisfied:before {
   content: "\e815";
 }
+
