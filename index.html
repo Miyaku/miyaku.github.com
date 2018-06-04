@@ -16,7 +16,7 @@ css:
       </div>
       <div class="card-action">
         <a href="{{post.url | prepend: site.baseurl}}">
-         Read More <i class="icon-arrow_forward"></i>
+         Read More <i class="fa fa-angle-right"></i>
         </a>
       </div>
     </div>
@@ -34,7 +34,7 @@ css:
         {% else %}
         <a href="#!">
         {% endif %}
-          <i class="icon-keyboard_arrow_left"></i>
+          <i class="fa fa-chevron-left"></i>
         </a>
       </li>
       {% if paginator.page == 1 %}
@@ -58,7 +58,7 @@ css:
         {% else %}
         <a href="#!">
         {% endif %}
-          <i class="icon-keyboard_arrow_right"></i>
+          <i class="fa fa-chevron-right"></i>
         </a>
       </li>
     </ul>
