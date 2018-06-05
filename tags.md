@@ -1,5 +1,5 @@
 ---
-title: ℳ  Tags
+title: Tags
 layout: page
 css:
 - tags.css

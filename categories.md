@@ -1,5 +1,5 @@
 ---
-title: ℳ  Categories
+title: Categories
 layout: page
 css:
 - categories.css

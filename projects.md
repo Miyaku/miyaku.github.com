@@ -1,5 +1,5 @@
 ---
-title: ℳ  Projects
+title: Projects
 layout: page
 css:
 - projects.css
