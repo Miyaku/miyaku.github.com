@@ -18,7 +18,8 @@ css:
     <div class="card hoverable">
       <div class="card-content">
         <span id="post-title" class="card-title">{{post.title}}</span>
-        <p id="post-meta" class="grey-text text-darken-1">{{post.date | date: "%-d %b %Y at %H:%M"}} {% if post.author %}by {{ post.author }}{% endif %} {% if site.disqus_shortname and post.comments %}<a href="#disqus_thread">Comments</a>{% endif %}</p>
+        <p id="post-meta" class="grey-text text-darken-1">{{post.date | date: "%-d %b %Y at %H:%M"}} {% if post.author %}by {{ post.author }}{% endif %} {% if post.categories %}
+		{% for cat in post.categories %}{% capture test %}{{cat | slice: 0}}{% endcapture %}{% capture testup %}{{cat | slice: 0 | upcase}}{% endcapture %}on {{cat}</a>{% endfor %}{% endif %} </p>
 		<!--<p id="post-content">{{ post.content | truncatewords: 21 }}</p>-->
         <p id="post-content">{{post.excerpt | remove: '<p>' | remove: '</p>'}}</p>
       </div>
