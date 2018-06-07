@@ -27,7 +27,7 @@ js:
           {% for cat in page.categories %}
           {% capture test %}{{cat | slice: 0}}{% endcapture %}
           {% capture testup %}{{cat | slice: 0 | upcase}}{% endcapture %}
-          <a href="{{site.baseurl}}/categories#{{cat | slugify}}{% if test == testup %}{% endif %}" target="_blank"><div class="chip">{{cat}}</div></a>
+          <a href="{{site.baseurl}}/categories#{{cat | slugify}}{% if test == testup %}{% endif %}"><div class="chip">{{cat}}</div></a>
           {% endfor %}
         </span>
         <span>
